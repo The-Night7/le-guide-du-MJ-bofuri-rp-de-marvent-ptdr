@@ -324,7 +324,7 @@
 - **DEX:** 30
 - **VIT:** 80
 - **Attaque de base:** 50 x3 (trois têtes)
-- **Crachat de poison:** 50/tour
+- **Crachat de poison:** 50/tour + dégats de base
 - **Drop:** Écailles de l'hydre, Venin purifié, Cœur d'hydre
 - **Zone:** Donjon de l'Hydre
 
