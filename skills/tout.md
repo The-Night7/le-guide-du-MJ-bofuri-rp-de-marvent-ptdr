@@ -387,7 +387,7 @@
 - **Condition:** "Hydra Eater" OU Lvl 10 mage poison
 
 #### **Hydra Eater**
-- **Description:** Invoque Hydres poison (dégâts + empoisonnement). Immunité poison/paralysie. Toutes magies poison disponibles. Applicable eau. Coût PM selon invocation.
+- **Description:** Invoque Hydres poison (dégâts + empoisonnement). Immunité poison/paralysie. Toutes magies poison disponibles. Applicable eau. Coût PM selon invocation entre 15 et 30.
 - **Condition:** Vaincre boss poison solo (même niveau/inférieur) après "Immunité poison" + Le manger/Gagner
 
 #### **Pluie de poison**
@@ -395,7 +395,7 @@
 - **Condition:** Maîtriser "Hydra Eater" OU Lvl 15 mage poison
 
 #### **Capsule empoisonnée**
-- **Description:** Enferme personne dans capsule poison. Libération possible. Sinon: statut "poison" temporaire. Brisable (attaque extérieure/intérieure).
+- **Description:** Enferme personne dans capsule poison. Libération possible. Sinon: statut "poison" temporaire. Brisable (attaque extérieure/intérieure). Coût PM : 10.
 - **Condition:** Avoir "Hydre"
 
 ---
