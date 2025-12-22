@@ -1,168 +1,230 @@
-# ⚔️ Règles de combat — Implémentation `rules.py` (référence MJ/Joueurs)
+# ⚔️ Règles de combat — Spécification exacte (selon `rules.py`)
 
-> Ce document décrit **les règles telles qu’elles sont codées** dans `rules.py`.
->
-> ⚠️ **Note importante :** je ne vois ici qu’un **extrait partiel** de `rules.py` (le fichier est tronqué dans l’aperçu).  
-> J’ai donc documenté **tout ce qui est certain** (signatures, formules visibles, conventions), et j’ai laissé des **encarts “À confirmer”** pour les morceaux manquants.  
-> Si tu colles le contenu complet de `rules.py`, je te sors une version 100% exhaustive.
+Ce document décrit **fidèlement** les règles implémentées dans `rules.py` (résolution d’attaque, dégâts, réduction VIT, contrecoup, et structure du résultat).
 
 ---  
 
-## 1) Entités et stats utilisées
+## 1) Types d’attaque (`AttackType`)
 
-Les calculs se font entre deux entités runtime :
+Les attaques sont typées :
 
-- **Attaquant** : `attacker: RuntimeEntity`
-- **Défenseur** : `defender: RuntimeEntity`
-
-Les stats utilisées (visibles dans l’extrait) :
-
-- `STR` : Force (attaques physiques)
-- `INT` : Intelligence (attaques magiques)
-- `DEX` : Dextérité (attaques à distance)
-- `AGI` : Agilité (sert au **toucher / esquive**)
+- **`phys`** : physique (stat de dégâts = STR)
+- **`magic`** : magique (stat de dégâts = INT)
+- **`ranged`** : distance (stat de dégâts = DEX)
 
 ---  
 
-## 2) Types d’attaque (`AttackType`)
+## 2) Stat utilisée pour les dégâts : `_attack_stat(attacker, attack_type)`
 
-Le code définit :
-
-- `phys` : attaque **physique**
-- `magic` : attaque **magique**
-- `ranged` : attaque **distance**
-
-Cela influe sur **la stat d’attaque utilisée pour calculer les dégâts** (pas la précision).
-
----  
-
-## 3) Stat d’attaque (dégâts) : `_attack_stat`
-
-Fonction : `_attack_stat(attacker, attack_type) -> float`
-
-Règle codée :
-
-- Si `attack_type = "phys"` → stat utilisée = `STR`
-- Si `attack_type = "magic"` → stat utilisée = `INT`
-- Si `attack_type = "ranged"` → stat utilisée = `DEX`
-
-En clair :
+La stat appelée `atk` dans les calculs vaut :
 
 \[
-\text{StatDégâts} =
+atk =
 \begin{cases}
-STR & \text{si phys}\\
-INT & \text{si magic}\\
-DEX & \text{si ranged}
+STR & \text{si } attack\_type = phys\\
+INT & \text{si } attack\_type = magic\\
+DEX & \text{si } attack\_type = ranged
 \end{cases}
 \]
 
-> ✅ Cette stat est explicitement décrite comme : **“Stat qui sert à calculer les dégâts (pas la précision).”**
+> Important : `atk` sert à **calculer les dégâts**, pas la précision.
 
 ---  
 
-## 4) Résolution d’une attaque : `resolve_attack`
+## 3) Étape 1 — Test de toucher / esquive (AGI)
 
-Signature (visible) :
-
-- `resolve_attack(attacker, defender, roll_a, roll_b, attack_type="phys", perce_armure=False) -> Dict[str, Any]`
-
-Paramètres importants :
-
-- `roll_a` : jet (type d20 attendu côté attaquant, mais c’est passé en `float`)
-- `roll_b` : jet (type d20 attendu côté défenseur, mais c’est passé en `float`)
-- `attack_type` : `"phys" | "magic" | "ranged"`
-- `perce_armure` : booléen (active un mode “perce-armure”)
-
----  
-
-## 5) Jet de toucher / esquive (précision)
-
-Le docstring (visible) décrit :
-
-- Attaquant :
-  \[
-  A = d20 + \frac{AGI(\text{attacker})}{10}
-  \]
-- Défenseur :
-  \[
-  D = d20 + \frac{AGI(\text{defender})}{10}
-  \]
-- Condition de toucher :
-  \[
-  \text{hit si } A > D
-  \]
-
-**Interprétation MJ :**
-- `AGI` ajoute un bonus “léger” (divisé par 10).
-- En cas d’égalité \(A = D\), l’attaque **ne touche pas** (puisque la condition est strictement \(>\)).
-
----  
-
-## 6) Dégâts, armure, perce-armure (À confirmer)
-
-L’extrait s’arrête au milieu de la docstring (“hit si A > D...”), donc les règles suivantes sont **probables** mais **non vérifiables** sans la fin du fichier.
-
-### 6.1 Dégâts bruts (probable)
-On s’attend à une formule de type :
-
-- dégâts bruts basés sur `StatDégâts` (cf. `_attack_stat`)
-- éventuellement modulés par d’autres stats (VIT/DEF), par un coefficient, et/ou par un jet
-
-**À confirmer dans le code :**
-- Est-ce que `roll_a` influence aussi les dégâts (critique, variance) ?
-- Y a-t-il une attaque de base “arme” côté `RuntimeEntity` ?
-- Existe-t-il une réduction via `VIT(defender)` ?
-
-### 6.2 Réduction / Armure (probable)
-Le paramètre `perce_armure: bool` suggère une branche :
-
-- `perce_armure = False` : dégâts réduits par une défense / armure (souvent `VIT`)
-- `perce_armure = True` : ignore tout ou partie de cette défense
-
-**À confirmer dans le code :**
-- Quel pourcentage/quelle règle d’ignorance ?
-- Perce-armure ignore-t-il totalement la réduction ou seulement une partie ?
-
----  
-
-## 7) Sortie de la fonction (résultat)
-
-`resolve_attack(...)` renvoie un dictionnaire `Dict[str, Any]`.
-
-**Champs attendus (À confirmer) :**
-- `hit` (bool)
-- `A`, `D` (valeurs des jets comparés)
-- `damage` (dégâts finaux)
-- éventuellement `damage_raw`, `mitigated`, `crit`, etc.
-
-Sans la fin du code, on ne peut pas lister les clés exactes.
-
----  
-
-## 8) Exemples rapides (basés sur les règles certaines)
-
-### Exemple 1 — toucher raté
-- Attaquant : `AGI = 12`, jet `roll_a = 10`
-- Défenseur : `AGI = 20`, jet `roll_b = 9`
+On calcule deux valeurs :
 
 \[
-A = 10 + \frac{12}{10} = 11.2
-\quad ; \quad
-D = 9 + \frac{20}{10} = 11
+hit\_a = roll\_a + \frac{AGI(attacker)}{10}
+\]
+\[
+hit\_b = roll\_b + \frac{AGI(defender)}{10}
 \]
 
-Ici \(A > D\) donc **ça touche** (de justesse).
+Condition de toucher :
 
-### Exemple 2 — égalité = échec
-Si \(A = D\), alors **pas de hit** (condition strictement \(>\)).
+\[
+\text{hit} \iff hit\_a > hit\_b
+\]
+
+- Si \(hit\_a = hit\_b\) : **ça ne touche pas** (strictement supérieur requis).
 
 ---  
 
-## 9) Pour finaliser la doc à 100%
+## 4) Étape 2 — Réduction par VIT (armure/résistance)
 
-Colle-moi le `rules.py` complet (ou au moins la fin à partir de `hit si A > D...`), et je te mets à jour ce document avec :
-- la formule exacte des **dégâts finaux**
-- la gestion exacte de `perce_armure`
-- les **clés exactes** du dict retourné
-- les cas limites (crit, minimum de dégâts, etc.)
+La défense du défenseur est modélisée par un terme :
+
+\[
+vit\_term = \frac{VIT(defender)}{vit\_div}
+\]
+
+où :
+
+- si `perce_armure = False` → \(vit\_div = 10\)
+- si `perce_armure = True` → \(vit\_div = 100\)
+
+Donc :
+
+- **Normal** : \[vit\_term = \frac{VIT}{10}\]
+- **Perce-armure** : \[vit\_term = \frac{VIT}{100}\] (réduction **10× plus faible**, donc bien plus facile de faire des dégâts)
+
+---  
+
+## 5) Cas A — L’attaque touche (`hit_a > hit_b`)
+
+### 5.1 Dégâts bruts avant modificateurs
+\[
+dmg = (hit\_a - hit\_b) + atk
+\]
+
+Interprétation :
+- plus tu “gagnes” le jet de toucher, plus tu ajoutes de dégâts
+- la stat offensive `atk` est ajoutée directement
+
+### 5.2 Modificateurs selon le type d’attaque
+
+#### Attaque magique (`magic`)
+\[
+dmg \leftarrow dmg \times
+\begin{cases}
+1.2 & \text{si } roll\_a > 15\\
+0.9 & \text{sinon}
+\end{cases}
+\]
+
+> Le seuil se base sur **`roll_a`** (le jet brut), pas sur \(hit\_a\).
+
+#### Attaque à distance (`ranged`)
+\[
+dmg \leftarrow dmg \times 0.95
+\]
+
+#### Attaque physique (`phys`)
+- pas de multiplicateur (reste tel quel)
+
+### 5.3 Application de la réduction VIT
+\[
+dmg \leftarrow dmg - vit\_term
+\]
+
+Puis on borne :
+
+\[
+dmg \leftarrow \max(0, dmg)
+\]
+
+### 5.4 Application aux PV du défenseur
+
+\[
+defender.hp \leftarrow \max(0, defender.hp - dmg)
+\]
+
+---  
+
+## 6) Cas B — L’attaque ne touche pas (`hit_a \le hit_b`)
+
+Le code calcule une “puissance de défense” :
+
+\[
+defense\_power = (hit\_b - hit\_a) + vit\_term - atk
+\]
+
+- si `defense_power > 0` : il y a **contrecoup / réflexion / riposte** sur l’attaquant
+- sinon : **aucun dégât** (attaque juste bloquée/dissipée/évité)
+
+---  
+
+## 7) Contrecoup sur l’attaquant (si `defense_power > 0`)
+
+Le montant du contrecoup dépend du type d’attaque initial :
+
+### 7.1 Physique (`phys`)
+\[
+contrecoup = defense\_power \times 1.0
+\]
+
+Message : *contre l'attaque… dégâts de contrecoup.*
+
+### 7.2 Magique (`magic`)
+\[
+contrecoup = defense\_power \times 0.7
+\]
+
+Message : *résiste au sort… dégâts de réflexion magique.*
+
+### 7.3 Distance (`ranged`)
+\[
+contrecoup = defense\_power \times 0.5
+\]
+
+Message : *esquive et riposte… dégâts.*
+
+Puis on applique aux PV de l’attaquant :
+
+\[
+attacker.hp \leftarrow \max(0, attacker.hp - contrecoup)
+\]
+
+---  
+
+## 8) Échec sans contrecoup (si `defense_power \le 0`)
+
+Aucun dégât n’est infligé à l’attaquant.
+
+Texte généré selon le type :
+- `phys` : *bloque l'attaque… Aucun dégât en retour.*
+- `magic` : *dissipe le sort… Aucun dégât en retour.*
+- `ranged` : *évite le tir… Aucun dégât en retour.*
+
+---  
+
+## 9) Structure exacte de la sortie (`out: Dict[str, Any]`)
+
+La fonction retourne toujours un dictionnaire contenant au minimum :
+
+- `hit`: bool
+- `roll_a`: float
+- `roll_b`: float
+- `hit_a`: float
+- `hit_b`: float
+- `attack_type`: `"phys" | "magic" | "ranged"`
+- `perce_armure`: bool
+- `vit_scale_div`: float (10.0 ou 100.0)
+- `atk_stat`: float
+- `vit_term`: float
+- `raw`: dict (détails numériques)
+  - si hit : `raw["damage"] = dmg`
+  - sinon : `raw["defense_value"] = defense_power`
+- `effects`: liste de strings (log RP lisible)
+
+---  
+
+## 10) Résumé ultra-court (MJ)
+
+1. Calculer \[hit\_a = roll\_a + AGI_a/10\], \[hit\_b = roll\_b + AGI_b/10\]
+2. \[vit\_term = VIT/10\] (ou \[VIT/100\] si perce-armure)
+3. Si \[hit\_a > hit\_b\] :
+   - \[dmg = (hit\_a - hit\_b) + atk\]
+   - magique : ×1.2 si \[roll\_a > 15\] sinon ×0.9
+   - ranged : ×0.95
+   - \[dmg \leftarrow \max(0, dmg - vit\_term)\]
+   - retirer `dmg` aux PV du défenseur
+4. Sinon :
+   - \[defense\_power = (hit\_b - hit\_a) + vit\_term - atk\]
+   - si > 0 : contrecoup (×1.0 phys, ×0.7 magic, ×0.5 ranged) sur l’attaquant
+   - sinon : rien
+
+---  
+
+## 11) Remarques d’équilibrage (constats “purement code”)
+
+- La différence de jets \((hit\_a - hit\_b)\) impacte **directement** les dégâts : gagner le toucher “fortement” augmente beaucoup le DPS.
+- La magie a un comportement spécial : elle est **buffée** si le jet brut est haut (\[roll\_a > 15\]), sinon **nerfée**.
+- `perce_armure` ne supprime pas la VIT : il la rend **10× moins efficace**.
+- Même quand tu rates, tu peux te prendre du contrecoup si la défense “dépasse” ton attaque : \[defense\_power > 0\].
+
+---  
+
+*Fin — conforme au code fourni.*
