@@ -1,603 +1,722 @@
 # 📚 Liste des Skills — PALIER 1 (Bofuri RP)
 
+Cette version **fusionne** :
+- la liste “propre” (structurée),
+- et la version “mise à jour” (détails supplémentaires, coûts, précisions).
+
+**Conventions d’écriture :**
+- Quand un coût/durée/cooldown n’est pas précisé, c’est indiqué **Non précisé**.
+- “Achat Shop/Boutique” = parchemin/achat en boutique selon ton RP.
+- Les intitulés sont uniformisés (accents, pluriels), sans changer le fond.
+
+---  
+
 ## 🔮 Skills Magiques & Détection
 
-### Détection de mana
-- **Description:** Permet de détecter les joueurs ou monstres possédant du mana. Visualise leur quantité pour évaluer leur dangerosité magique.
-- **Coût MP:** Passif
-- **Condition:** Être mage ou prêtre + Roll 20
+### Détection de mana *(Passif)*
+- **Description :** Détecte les joueurs/monstres possédant du mana. Permet d’estimer leur dangerosité magique selon la quantité perçue.
+- **Coût MP :** Passif
+- **Condition d’obtention :** Être **mage** ou **prêtre** + **Roll 20**
 
----
+---  
 
 ### Boule empoisonnée
-- **Description:** Lance une attaque empoisonnée. Chances d'empoisonner la cible.
-- **Coût MP:** 10 PM
-- **Condition:** Atteindre le Lvl 3
+- **Description :** Attaque empoisonnée. Chance d’empoisonner la cible.
+- **Coût MP :** 10 PM
+- **Condition d’obtention :** Atteindre le **Lvl 3**
 
 ### Boule de poison multiple
-- **Description:** Lance jusqu'à 5 boules de poison (sur une ou plusieurs cibles).
-- **Coût MP:** 30 PM
-- **Condition:** Lancer 3x "Boule empoisonnée" sur 3 ennemis différents
+- **Description :** Lance plusieurs boules de poison (jusqu’à 5), sur une cible ou réparties.
+- **Coût MP :** 30 PM
+- **Condition d’obtention :** Lancer **3x** “Boule empoisonnée” sur **3 ennemis différents**
 
----
+---  
 
 ### Boule de foudre
-- **Description:** Lance une boule d'éclair. Peut paralyser.
-- **Coût MP:** 10 PM
-- **Condition:** Atteindre le Lvl 3
+- **Description :** Lance une boule d’éclair. Peut **paralyser**.
+- **Coût MP :** 10 PM
+- **Condition d’obtention :** Atteindre le **Lvl 3**
 
 ### Boule de foudre multiple
-- **Description:** Lance jusqu'à 5 boules de foudre (sur une ou plusieurs cibles).
-- **Coût MP:** 30 PM
-- **Condition:** Lancer 3x "Boule de foudre" sur 3 ennemis différents
+- **Description :** Lance plusieurs boules de foudre (jusqu’à 5), sur une cible ou réparties.
+- **Coût MP :** 30 PM
+- **Condition d’obtention :** Lancer **3x** “Boule de foudre” sur **3 ennemis différents**
 
----
+---  
 
 ### Boule de feu
-- **Description:** Lance une boule de feu causant dégâts magiques. Chance de brûlure.
-- **Coût MP:** 10 PM
-- **Condition:** Spécialiste magie feu OU gagner des niveaux
+- **Description :** Lance une boule de feu (dégâts magiques). Chance de **brûlure**.
+- **Coût MP :** 10 PM
+- **Condition d’obtention :** Spécialiste **feu** (magie) **OU** déblocage via progression/niveaux
 
 ### Boule de feu multiple
-- **Description:** Lance jusqu'à 5 boules de feu (sur une ou plusieurs cibles).
-- **Coût MP:** 30 PM
-- **Condition:** Utiliser "Boule de feu" sur 3 ennemis différents (avec succès)
+- **Description :** Jusqu’à 5 boules (sur une ou plusieurs cibles).
+- **Coût MP :** 30 PM
+- **Condition d’obtention :** Utiliser “Boule de feu” sur **3 ennemis différents** **avec succès** (ça touche)
 
 ### Colonne de Feu
-- **Description:** Crée une colonne de feu infligeant dégâts.
-- **Coût MP:** 20 PM
-- **Condition:** Utiliser "Boule de feu multiple" 5x dans un combat
+- **Description :** Crée une colonne de feu infligeant des dégâts.
+- **Coût MP :** 20 PM
+- **Condition d’obtention :** Utiliser “Boule de feu multiple” **5x** dans un combat
 
-### Cage Flamboyant
-- **Description:** Après récitation de 5 tours, crée une cage de flammes immobilisant + brûlure/tour. Brisable par transformation/attaque surpuissante.
-- **Incantation:** *"Brasier symbolique à l'origine de l'univers, Par ta force rougeoyante enferme le monde dans des fers. (T1) Feu somptueux, qui brûle terre et ciel. (T2) Flammes vacillantes dans les ténèbres. (T3) Fournaise capable de tout réduire en cendre, j'en appelle à votre vigueur. J'en appelle à votre intransigeance.(T4): Consumez tout! Crépiter! Scellez mes ennemis! Soyez le joug qui les enfermera à jamais (T5)"*
-- **Condition:** Lvl 15 + Spécialiste feu
+### Lance ardente
+- **Description :** Crée des lances de flammes (dégâts > Boule de feu).
+- **Coût MP :** 20 PM
+- **Condition d’obtention :** **Lvl 5** + Spécialiste **feu**
+
+### Accélération enflammée
+- **Description :** AGI x2 temporaire (fuite/déplacement/esquive).
+- **Coût MP :** 10 PM
+- **Condition d’obtention :** **Lvl 7** + Spécialiste **feu**
+
+### Cage flamboyante
+- **Description :** Après **5 tours** de récitation : crée une cage de flammes, **immobilise** + applique **brûlure par tour**. Brisable (transformation puissante / attaque surpuissante / autre selon MJ).
+- **Incantation :**
+    - Tour 1 : “Brasier symbolique à l’origine de l’univers, par ta force rougeoyante enferme le monde dans des fers.”
+    - Tour 2 : “Feu somptueux, qui brûle terre et ciel.”
+    - Tour 3 : “Flammes vacillantes dans les ténèbres.”
+    - Tour 4 : “Fournaise capable de tout réduire en cendre, j’en appelle à votre vigueur. J’en appelle à votre intransigeance.”
+    - Tour 5 : “Consumez tout ! Crépitez ! Scellez mes ennemis ! Soyez le joug qui les enfermera à jamais !”
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** **Lvl 15** + Spécialiste **feu**
 
 ### Auto-destruction
-- **Description:** Sacrifice infligeant dégâts colossaux (oneshot joueur standard). Plus les PV/MP manquent, plus les dégâts augmentent.
-- **Condition:** Lvl 15 + Spécialiste feu
+- **Description :** Sacrifice infligeant des dégâts colossaux (souvent oneshot “standard”, sauf très haute défense). Plus il manque de PV/MP, plus les dégâts augmentent.
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** **Lvl 15** + Spécialiste **feu**
 
-### Lance ardent
-- **Description:** Crée des lances de flammes (dégâts > boule de feu).
-- **Coût MP:** 20 PM
-- **Condition:** Lvl 5 + Spécialiste feu
+---  
 
-### Accélération enflammé
-- **Description:** +AGI x2 temporaire (fuite/déplacement/esquive).
-- **Coût MP:** 10 PM
-- **Condition:** Lvl 7 + Spécialiste feu
+### Bulle d’eau
+- **Description :** Attaque magique d’eau.
+- **Coût MP :** 10 PM
+- **Condition d’obtention :** Spécialiste **eau** (magie) **OU** déblocage via progression/niveaux
 
----
+### Bulle d’eau multiple
+- **Description :** Jusqu’à 5 bulles (sur une ou plusieurs cibles).
+- **Coût MP :** 30 PM
+- **Condition d’obtention :** Utiliser “Bulle d’eau” sur **3 ennemis différents** **avec succès** (ça touche)
 
-### Bulle d'eau
-- **Description:** Lance une bulle d'eau causant dégâts magiques.
-- **Coût MP:** 10 PM
-- **Condition:** Spécialiste eau OU gagner des niveaux
-
-### Bulle d'eau multiple
-- **Description:** Lance jusqu'à 5 bulles d'eau (sur une ou plusieurs cibles).
-- **Coût MP:** 30 PM
-- **Condition:** Utiliser "Bulle d'eau" sur 3 ennemis différents (avec succès)
-
----
+---  
 
 ### Balle de roche
-- **Description:** Lance une balle de pierre causant dégâts magiques.
-- **Coût MP:** 10 PM
-- **Condition:** Spécialiste terre OU gagner des niveaux
+- **Description :** Attaque magique de terre.
+- **Coût MP :** 10 PM
+- **Condition d’obtention :** Spécialiste **terre** (magie) **OU** déblocage via progression/niveaux
 
-### Multiple balle de roche
-- **Description:** Lance jusqu'à 5 balles de roche (sur une ou plusieurs cibles).
-- **Coût MP:** 30 PM
-- **Condition:** Utiliser "Balle de roche" sur 3 ennemis différents (avec succès)
+### Balle de roche multiple
+- **Description :** Jusqu’à 5 balles (sur une ou plusieurs cibles).
+- **Coût MP :** 30 PM
+- **Condition d’obtention :** Utiliser “Balle de roche” sur **3 ennemis différents** **avec succès** (ça touche)
 
 ### Lance de terre
-- **Description:** Invoque des lances de terre empalant les adversaires.
-- **Coût MP:** Variable
-- **Condition:** Achat Boutique
+- **Description :** Invoque des lances de terre empalant les adversaires.
+- **Coût MP :** Variable
+- **Condition d’obtention :** Achat Boutique/Shop
 
----
+---  
 
 ### Barrière
-- **Description:** Crée une barrière magique bloquant des dégâts. Applicable sur allié.
-- **Coût MP:** 10 PM
-- **Condition:** Spécialiste magie + Lvl 3
+- **Description :** Barrière magique bloquant une certaine quantité de dégâts. Applicable sur allié.
+- **Coût MP :** 10 PM
+- **Condition d’obtention :** Spécialiste magie + **Lvl 3**
 
 ### Multi-barrière
-- **Description:** Crée jusqu'à 5 barrières (bloquer attaque puissante OU enfermer adversaire).
-- **Coût MP:** Variable
-- **Condition:** Utiliser "Barrière" 10x dans un combat
+- **Description :** Jusqu’à 5 barrières (bloquer une attaque puissante **ou** enfermer un adversaire).
+- **Coût MP :** Variable
+- **Condition d’obtention :** Utiliser “Barrière” **10x dans un seul combat**
 
----
+---  
 
 ### Mirage
-- **Description:** Crée une illusion pour tromper les monstres.
-- **Coût MP:** Variable
-- **Condition:** Achat Boutique
+- **Description :** Crée une illusion (ex : faire croire à une disparition d’objet / tromper des monstres).
+- **Coût MP :** Variable
+- **Condition d’obtention :** Achat Boutique/Shop
 
----
+---  
 
 ## ⚔️ Skills de Combat Physique
 
 ### Slash
-- **Description:** Cause des dégâts tranchants.
-- **Condition:** Arme tranchante à 1 main + Tuer un monstre
+- **Description :** Dégâts tranchants.
+- **Coût MP :** 0
+- **Condition d’obtention :** Arme tranchante à 1 main + tuer un monstre
 
-### Double/Triple/Quadra/Quintuple Slash
-- **Description:** 2-5 coups comptés comme 1 attaque. Chaque slash = dégâts pleins (arme + STR).
-- **Condition:** Donner 2-5 coups tranchants tuant des monstres
+### Double / Triple / Quadra / Quintuple Slash
+- **Description :** 2 à 5 coups comptés comme **une seule attaque**. Chaque slash inflige des dégâts pleins (arme + STR).
+- **Coût MP :** 0
+- **Condition d’obtention :** Donner 2 à 5 coups tranchants **en tuant** des monstres
 
 ### Déluge de coups
-- **Description:** 10 coups tranchants.
-- **Condition:** Vaincre boss avec uniquement techniques tranchantes (2 armes 1 main)
+- **Description :** 10 coups tranchants.
+- **Coût MP :** 0
+- **Condition d’obtention :** Vaincre un boss avec uniquement des techniques tranchantes (2 armes 1 main)
 
----
+---  
 
 ### Power Attack
-- **Description:** Attaque infligeant x2 dégâts.
-- **Condition:** Coup critique avec double épée
+- **Description :** Attaque qui inflige **x2 dégâts**.
+- **Coût MP :** 0
+- **Condition d’obtention :** Coup critique avec double épée
 
-### Perce-défense
-- **Description:** Ignore la défense adverse.
-- **Condition:** Roll 20 sur adversaire haute défense (PVP/PVE)
+### Perce-défense *(Passif)*
+- **Description :** Ignore la défense/armure adverse (jusqu’à **70%** de l’armure adverse).
+- **Coût MP :** Passif
+- **Condition d’obtention :** Roll 20 sur adversaire à haute défense (PVP/PVE)
 
----
+---  
 
 ### Cisaille
-- **Description:** Enchaînement de coupures (arme tranchante).
-- **Condition:** Couper poils monstre parfaitement (Roll 20)
+- **Description :** Enchaînement de coupures (arme tranchante).
+- **Coût MP :** 0
+- **Condition d’obtention :** Couper les poils d’un monstre parfaitement (Roll 20)
 
----
+---  
 
-### Attaque Sauté
-- **Description:** Attaque avec onde de choc.
-- **Condition:** Lvl 5 avec arme 2 mains
+### Attaque sautée
+- **Description :** Attaque avec onde de choc.
+- **Coût MP :** 0
+- **Condition d’obtention :** Lvl 5 avec une arme à 2 mains
 
 ### Double coup sauté
-- **Description:** 2 ondes de choc (x2 dégâts "Attaque Sauté").
-- **Condition:** Manipuler 2 armes 2 mains
+- **Description :** 2 ondes de choc (x2 dégâts de “Attaque sautée”).
+- **Coût MP :** 0
+- **Condition d’obtention :** Manipuler 2 armes à 2 mains
 
----
+---  
 
 ### Fissure
-- **Description:** Grande fissure (Grande Hache) causant dégâts chute + repoussement.
-- **Condition:** Grande Hache + 50 STR minimum + Tuer monstre en 1 coup
+- **Description :** Crée une grande fissure (grande hache) : dégâts de chute + repoussement.
+- **Coût MP :** 0
+- **Condition d’obtention :** Grande hache + **50 STR min** + tuer un monstre en 1 coup
 
 ### Charge massive
-- **Description:** Charge renversant ennemis sur le passage.
-- **Condition:** Foncer dans groupe (3+ ennemis) et les éliminer
+- **Description :** Charge renversant les ennemis sur le passage.
+- **Coût MP :** 0
+- **Condition d’obtention :** Foncer dans un groupe (min 3 ennemis) et les éliminer sans mourir
 
-### Hache Brûlante
-- **Description:** Ajoute élément feu à la hache. Dégâts brûlure.
-- **Condition:** Recevoir sort feu sur hache + Frapper adversaire
+### Hache brûlante
+- **Description :** Ajoute l’élément feu à la hache : dégâts de brûlure.
+- **Coût MP :** 0
+- **Condition d’obtention :** Recevoir un sort de feu sur la hache + réussir à frapper un adversaire
 
 ### Force de la hache
-- **Description:** Coup surpuissant basé sur STR.
-- **Condition:** Lvl 5
+- **Description :** Coup surpuissant basé sur STR.
+- **Coût MP :** 0
+- **Condition d’obtention :** Lvl 5
 
----
+---  
 
 ### Berserk
-- **Description:** STR x3 + AGI x2
-- **Condition:** Combattre <30% HP après mort allié OU seul vs groupe/monstre supérieur (Grande Hache)
+- **Description :** STR x3 + AGI x2.
+- **Coût MP :** 0
+- **Condition d’obtention :** Combattre <30% HP après mort d’un allié **OU** seul vs groupe/monstre supérieur (voie grande hache)
 
----
+---  
 
 ## 🛡️ Skills Défensifs
 
-### Défense Absolue
-- **Description:** VIT x2. Triple points requis pour STR/AGI/INT (+1 stat = 3 pts).
-- **Condition:** Subir 10 attaques sans dégâts
+### Défense absolue
+- **Description :** VIT x2. Triple les points requis pour augmenter STR/AGI/INT (1 point = 3 points dépensés).
+- **Coût MP :** 0
+- **Condition d’obtention :** Subir un total de 10 attaques sans prendre de dégâts
 
----
+---  
 
 ### Protection
-- **Description:** Se protège d'une attaque. Réduit dégâts si échec.
-- **Condition:** Achat Shop
+- **Description :** Se protège d’une attaque. En cas d’échec, réduit les dégâts reçus.
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** Achat Shop
 
----
+---  
 
 ### Provocation
-- **Description:** Attire l'attention des monstres.
-- **Condition:** Attirer 5+ monstres (avec/sans objet)
+- **Description :** Attire l’attention des monstres sur vous.
+- **Coût MP :** 0
+- **Condition d’obtention :** Attirer l’attention de 5 monstres ou + (avec ou sans objet)
 
----
+---  
 
 ### Couverture mouvementée
-- **Description:** Se déplace vers allié pour le protéger. Dégâts x2 reçus. Peut échouer si immobilisé/adversaire trop rapide/trop loin.
-- **Coût MP:** Variable
-- **Condition:** Achat Shop
+- **Description :** Se déplace vers un allié pour le protéger. L’utilisateur reçoit des dégâts **x2**. Peut échouer (immobilisation, adversaire plus rapide, distance trop grande).
+- **Coût MP :** Variable
+- **Condition d’obtention :** Achat Shop
 
----
+---  
 
 ### Gardien inébranlable
-- **Description:** Survit avec 1 PV lors de dégâts mortels (1ère fois). Cooldown défini.
-- **Condition:** Grand bouclier + Protéger allié avec ≤10% PV
+- **Description :** Survit à des dégâts mortels avec **1 PV** (1ère fois). Cooldown défini.
+- **Coût MP :** 0
+- **Condition d’obtention :** Grand bouclier + protéger un allié en étant à ≤10% PV
 
----
+---  
 
 ### Counter Shield
-- **Description:** Contre attaque monstre (si réussite). Utilise VIT comme source attaque. Dégâts réduits vs boss haute VIT.
-- **Condition:** Roll 20 + 20 dans donjon + Contrer groupe + Maîtrise bouclier
+- **Description :** Contre une attaque de monstre (si réussite). Utilise VIT comme source d’attaque. Dégâts réduits vs boss à haute VIT.
+- **Coût MP :** 0
+- **Condition d’obtention :** Roll 20 + 20 dans donjon + contrer un groupe + maîtrise du bouclier
 
-### Blocage Absolue
-- **Description:** Bloque 1 coup/combat. Stack revient si repoussement bloqué. Ne bloque pas perce-armure/attaques non-blocables.
-- **Condition:** 2x Roll 20 (roll multiple) vs boss
+### Blocage absolu
+- **Description :** Bloque 1 coup par combat. Si un repoussement est bloqué, la charge consommée revient. Ne bloque pas perce-armure / attaques non blocables.
+- **Coût MP :** 0
+- **Condition d’obtention :** 2x Roll 20 (roll multiple) vs boss
 
----
+---  
 
-### Maîtrise du Bouclier/Arme (I-V)
-- **Description:** Augmente dégâts arme OU défense bouclier.
-- **Condition:** Utiliser arme sans skill + Tuer X ennemis
-  - **Rang I:** 3 ennemis
-  - **Rang II:** 6 ennemis
-  - **Rang III:** 9 ennemis
-  - **Rang IV:** 12 ennemis
-  - **Rang V:** 15 ennemis
+### Maîtrise du Bouclier / de l’Arme (I → V)
+- **Description :** Augmente les dégâts (arme) ou la défense (bouclier).
+- **Coût MP :** Passif
+- **Condition d’obtention :** Utiliser l’arme/bouclier sans skill et tuer X ennemis :
+    - Rang I : 3 ennemis
+    - Rang II : 6 ennemis
+    - Rang III : 9 ennemis
+    - Rang IV : 12 ennemis
+    - Rang V : 15 ennemis
 
----
+---  
 
 ## 🏃 Skills de Mobilité
 
-### Esquive (Passif)
-- **Description:** +3 aux rolls défensifs (esquive/repli/fuite).
-- **Condition:** Roll 20 lors tentative esquive
+### Esquive *(Passif)*
+- **Description :** +3 aux rolls défensifs (esquive / repli / fuite).
+- **Coût MP :** Passif
+- **Condition d’obtention :** Roll 20 sur un roll défensif (tentative d’esquive)
 
-### Esquive Absolue
-- **Description:** AGI x3 (défense uniquement) 3x/combat (esquive/fuite/repli).
-- **Condition:** Esquiver attaque mortelle vs adversaire surpuissant (Roll 20)
+### Esquive absolue
+- **Description :** Utilisable 3 fois par combat. AGI x3 **uniquement en défense** (esquive/fuite/repli).
+- **Coût MP :** 0
+- **Condition d’obtention :** Esquiver une attaque potentiellement mortelle face à un adversaire surpuissant (Roll 20)
 
----
+---  
 
 ### Accélération
-- **Description:** AGI x2 (attaque/esquive/fuite). Déplacement rapide. Durée: 2 actions off/def. Cooldown: 1 tour.
-- **Coût MP:** 0
-- **Condition:** 100+ AGI à la création
+- **Description :** AGI x2 (attaque/esquive/fuite). Déplacement rapide. Durée : 2 actions off/def. Cooldown : 1 tour.
+- **Coût MP :** 0
+- **Condition d’obtention :** 100+ AGI à la création
 
 ### Super Accélération
-- **Description:** AGI x3 (attaque/esquive/fuite). Déplacement rapide.
-- **Coût MP:** 20 PM
-- **Condition:** Soigner PNJ Manoir fantôme avec "Heal" OU Achat Shop
+- **Description :** AGI x3 (attaque/esquive/fuite). Déplacement rapide.
+- **Coût MP :** 20 PM
+- **Condition d’obtention :** Soigner un PNJ au Manoir fantôme avec “Heal” **OU** achat Shop
 
 ### Accélération éclair
-- **Description:** AGI x4 (attaque/esquive/fuite). Déplacement rapide (puissance du vent).
-- **Coût MP:** Variable
-- **Condition:** Fuir adversaire aussi/plus rapide
+- **Description :** AGI x4 (attaque/esquive/fuite). Déplacement rapide (puissance du vent).
+- **Coût MP :** Variable
+- **Condition d’obtention :** Réussir à fuir un adversaire aussi/plus rapide
 
----
+---  
 
-### Passage Fantôme
-- **Description:** 3x/jour. Masque présence (environnement). Durée: 10 min OU jusqu'à attaque. Pas de traces, bruits étouffés, légèrement transparent. Avantage: abri/zone encombrée/ombre. Cooldown: 1 tour.
-- **Condition:** Outrepasser vigilance entité(s) niveau supérieur + Surprise
+### Passage fantôme
+- **Description :** 3x/jour. Masque votre présence via l’environnement. Durée : 10 min OU jusqu’à attaque. Pas de traces, bruits étouffés, transparence légère. Avantage : abri/zone encombrée/ombre. Cooldown : 1 tour.
+- **Coût MP :** 0
+- **Condition d’obtention :** Outrepasser la vigilance d’entités de niveau supérieur et les surprendre
 
----
+---  
 
-### Jeu de jambes (Passif)
-- **Description:** Immunité ralentissement/immobilisation.
-- **Condition:** Ne pas être touché vs boss
+### Jeu de jambes *(Passif)*
+- **Description :** Immunité ralentissement/immobilisation.
+- **Coût MP :** Passif
+- **Condition d’obtention :** Ne pas être touché une seule fois face à un boss de votre niveau
 
----
+---  
 
-### Super Saut
-- **Description:** Saute plus haut que normal.
-- **Condition:** Achat Shop
+### Super saut
+- **Description :** Saute plus haut que normal.
+- **Coût MP :** 0
+- **Condition d’obtention :** Achat Shop
 
----
+---  
 
 ## 🎯 Skills Spécialisés
 
 ### Tueur de géant
-- **Description:** Si 4 stats adversaire (sauf HP/MP) sont 2x supérieures: x2 toutes vos stats.
-- **Condition:** Vaincre adversaires niveau supérieur en solo
+- **Description :** Si 4 stats adverses (sauf PV/MP) sont ≥ 2x les vôtres : vous gagnez x2 sur toutes vos stats.
+- **Coût MP :** 0
+- **Condition d’obtention :** Vaincre des adversaires de niveau supérieur en solo
 
----
+---  
 
-### Désigné pour Mourir
-- **Description:** Désigne cible visible. Jusqu'à 0 HP cible OU incapacité/paralysie/sommeil/0 HP utilisateur: Avantage attaques + [1d8 + Mod STR/INT] dégâts supplémentaires. 1 cible max.
-- **Condition:** Abattre créature/joueur niveau supérieur dirigeant groupe 5+ OU Abattre monstre rare seul (+5 lvl différence)
+### Désigné pour mourir
+- **Description :** Désigne une cible visible. Jusqu’à ce que la cible tombe à 0 HP **ou** que vous soyez incapacité/paralysé/endormi/0 HP : vous avez l’avantage contre elle et infligez des dégâts bonus (1d8 + mod STR ou INT selon votre style).
+- **Coût MP :** Non précisé
+- **Limite :** 1 cible marquée max (pas de double marquage)
+- **Condition d’obtention :** Abattre un leader d’un groupe (5+ créatures/joueurs) de niveau supérieur **OU** abattre un monstre rare seul avec +5 niveaux d’écart
 
----
+---  
 
-### Traque des Bêtes (Passif)
-- **Description:** Avantage traquer créatures "Bête"/"Bestiale" (après compréhension déplacement/chasse/repli).
-- **Condition:** Traquer groupe sans erreur/perte temps OU Roll 20 attraper bête bestiale à mains nues
+### Traque des bêtes *(Passif)*
+- **Description :** Avantage pour traquer les créatures “Bête/Bestiale” après avoir compris leurs habitudes (déplacement/chasse/repli).
+- **Coût MP :** Passif
+- **Condition d’obtention :** Traquer un groupe sans erreur/perte de temps **OU** Roll 20 en attrapant une bête bestiale à mains nues
 
----
+---  
 
 ### Goinfre
-- **Description:** Mange ennemi = oneshot. Pas boss/ennemis puissants. Assignable arme/bouclier. 10 utilisations avant cooldown (1 combat event).
-- **Condition:** Vaincre ennemi avec bouche + Le manger
+- **Description :** Manger un ennemi = oneshot (ne fonctionne pas sur boss/ennemis puissants). Assignable arme/bouclier. 10 utilisations puis recharge (ordre d’idée : 1 combat d’event).
+- **Coût MP :** 0
+- **Condition d’obtention :** Vaincre un ennemi avec sa bouche puis le manger
 
----
+---  
 
-### Saignement (Passif)
-- **Description:** Dégâts sur durée quand coup touche.
-- **Condition:** Vaincre joueur même niveau (PVP) après 10 tours (arme tranchante corps-à-corps) OU Vaincre monstre après 15 tours (arme tranchante)
+### Saignement *(Passif)*
+- **Description :** Applique des dégâts sur la durée quand un coup touche.
+- **Coût MP :** Passif
+- **Condition d’obtention :**
+    - Vaincre un joueur de même niveau (PVP) après 10 tours (arme tranchante CàC)
+    - **OU** vaincre un monstre après 15 tours (arme tranchante)
 
----
+---  
 
-### Choc Paralysant
-- **Description:** Paralyse ennemis rayon 20m.
-- **Condition:** Achat Shop
+### Choc paralysant
+- **Description :** Paralyse les ennemis dans un rayon d’environ 20 m autour de l’utilisateur.
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** Achat Shop
 
----
+---  
 
-### Brume d'encre
-- **Description:** Vision floue. Réduit chances toucher (12+ au lieu 10+).
-- **Condition:** Vaincre "Poisson tentaculaire" sans rater attaque
+### Brume d’encre
+- **Description :** Vision floue. Réduit les chances de toucher (il faut 12+ au lieu de 10+).
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** Vaincre “Poisson tentaculaire” sans rater une seule attaque
 
----
-
-### Pêche
-- **Description:** Pêche plus facilement.
-- **Condition:** Gagner 3 niveaux en pêchant
-
----
-
-### Nage (Lvl 1-10)
-- **Description:** Nage plus aisément.
-- **Condition:** Passer temps à nager
-  - **Lvl 1:** 1 action RP
-  - **Lvl 2:** 2 actions total
-  - **Lvl 3-10:** 3-10 actions
-
----
-
-### Plongée (Lvl 1-10)
-- **Description:** Plonge + Retient air plus longtemps.
-- **Condition:** Passer temps sous l'eau
-  - **Lvl 1:** 1 action RP
-  - **Lvl 2:** 2 actions total
-  - **Lvl 3-10:** 3-10 actions
-
----
+---  
 
 ### Coupure du vent
-- **Description:** Utilise vent pour augmenter dégâts coupure. Attaque distance (eau/air).
-- **Condition:** Achat Shop
+- **Description :** Utilise le vent pour augmenter les dégâts de coupure. Peut servir d’attaque à distance (eau/air).
+- **Coût MP :** 0
+- **Condition d’obtention :** Achat Shop
 
----
+---  
+
+### Pêche
+- **Description :** Pêche plus facilement.
+- **Coût MP :** 0
+- **Condition d’obtention :** Gagner 3 niveaux en pêchant
+
+### Nage (Lvl 1 → 10)
+- **Description :** Nage plus aisément.
+- **Condition d’obtention :** Passer du temps à nager (nombre d’actions RP = niveau)
+    - Lvl 1 : 1 action RP
+    - Lvl 2 : 2 actions (non cumulées)
+    - Lvl 3…10 : 3…10 actions
+
+### Plongée (Lvl 1 → 10)
+- **Description :** Plonge + retient l’air plus longtemps.
+- **Condition d’obtention :** Passer du temps sous l’eau (nombre d’actions RP = niveau)
+    - Lvl 1 : 1 action RP
+    - Lvl 2 : 2 actions (non cumulées)
+    - Lvl 3…10 : 3…10 actions
+
+---  
 
 ## 🧪 Skills de Poison
 
-### Résistance au poison faible/Moyen
-- **Description:** Réduit dégâts poison.
-  - **Faible:** 5 PV/sec → 3 PV/sec
-  - **Moyen:** 5 PV/sec → 1 PV/sec
-- **Condition:**
-  - **Faible:** Subir poison 3 tours sans mourir
-  - **Moyen:** 6 tours (non cumulé)
+### Résistance au poison (Faible / Moyen)
+- **Description :** Réduit les dégâts de poison.
+    - Faible : exemple 5 PV/sec → 3 PV/sec
+    - Moyen : exemple 5 PV/sec → 2 PV/sec
+- **Coût MP :** Passif
+- **Condition d’obtention :**
+    - Faible : subir du poison 3 tours sans mourir
+    - Moyen : subir du poison 6 tours (non cumulé)
 
 ### Grande résistance au poison
-- **Description:** Réduit grandement dégâts poison.
-- **Condition:** Subir poison boss poison 9 tours
+- **Description :** Réduit grandement les dégâts de poison.
+- **Coût MP :** Passif
+- **Condition d’obtention :** Subir le poison d’un boss poison pendant 9 tours (si vous venez d’obtenir le rang précédent : pas de cumul, recommencer depuis tour 0)
 
 ### Immunité au poison
-- **Description:** Insensible aux poisons.
-- **Condition:** Subir poison boss 12 tours
+- **Description :** Insensible aux poisons.
+- **Coût MP :** Passif
+- **Condition d’obtention :** Subir le poison d’un boss pendant 12 tours dans un seul combat (pas de cumul avec le rang précédent : recommencer depuis tour 0)
 
----
+---  
 
 ### Souffle mortel
-- **Description:** Crée poison air autour de soi (secondes). Applicable objet.
-- **Condition:** "Hydra Eater" OU Lvl 10 mage poison
+- **Description :** Crée du poison autour de soi sous forme d’air (en quelques secondes). Peut être appliqué sur un objet.
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** Avoir “Hydra Eater” **OU** être Lvl 10 mage poison
 
 ### Hydra Eater
-- **Description:** Invoque Hydres poison (dégâts + empoisonnement). Immunité poison/paralysie. Toutes magies poison disponibles. Applicable eau. Coût PM selon invocation.
-- **Condition:** Vaincre boss poison solo (même niveau/inférieur) après "Immunité poison" + Le manger/Gagner
+- **Description :** Invoque des hydres de poison (dégâts + empoisonnement). Immunité poison + paralysie. Accès aux magies poison. Peut s’appliquer dans l’eau. Coût selon invocation.
+- **Coût MP :** Variable
+- **Condition d’obtention :** Après “Immunité au poison”, vaincre un boss poison solo (niveau égal/inférieur) et le manger **OU** gagner contre lui (selon MJ)
 
 ### Pluie de poison
-- **Description:** Crée pluie poison sur adversaires.
-- **Condition:** Maîtriser "Hydra Eater" OU Lvl 15 mage poison
+- **Description :** Pluie de poison sur les adversaires.
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** Maîtriser “Hydra Eater” **OU** être Lvl 15 mage poison
 
 ### Capsule empoisonnée
-- **Description:** Enferme personne dans capsule poison. Libération possible. Sinon: statut "poison" temporaire. Brisable (attaque extérieure/intérieure).
-- **Condition:** Avoir "Hydre"
+- **Description :** Enferme une personne dans une capsule de poison. La cible peut tenter de s’en libérer ; sinon, statut “poison” temporaire tant que la capsule tient. Toute attaque intérieure/extérieure brise la capsule.
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** Avoir “Hydre”
 
----
+---  
 
 ## 💥 Skills Explosifs
 
 ### Immunité aux explosions
-- **Description:** Immunisé explosions.
-- **Condition:** Subir dégâts explosion 15 tours OU Manger 5 monstres explosifs
+- **Description :** Immunisé aux explosions.
+- **Coût MP :** Passif
+- **Condition d’obtention :**
+    - Subir des dégâts d’explosion pendant 15 tours
+    - **OU** manger 5 monstres explosifs
 
----
+---  
 
 ## 🩹 Skills de Soin & Support
 
 ### Méditation
-- **Description:** Récupère 1% PV/tour pendant 5 tours (inclut attaque/défense). Pas d'attaque. Pas de coût PM. Cooldown: 10 tours.
-- **Condition:** Subir attaques 6 tours sans bouger/agir
-
----
+- **Description :** Récupère 1% PV par tour pendant 5 tours (inclut attaque/défense). Impossible d’attaquer pendant l’effet. Pas de coût MP.
+- **Cooldown :** 10 tours
+- **Condition d’obtention :** Subir des attaques 6 tours sans rien faire ni bouger
 
 ### Heal
-- **Description:** Soigne 10% PV d'une personne.
-- **Coût MP:** 20 PM
-- **Condition:** Achat Boutique
-
----
+- **Description :** Soigne 10% des PV d’une personne.
+- **Coût MP :** 20 PM *(“mise à jour possible”)*
+- **Condition d’obtention :** Achat Boutique/Shop
 
 ### Purge
-- **Description:** Purge ralentissement/immobilisation (sauf paralysie).
-- **Coût MP:** 10 PM/utilisation
-- **Condition:** Vaincre ennemi sous poison/immobilisation/ralentissement
+- **Description :** Retire ralentissement/immobilisation (sauf paralysie).
+- **Coût MP :** 10 PM / utilisation
+- **Condition d’obtention :** Vaincre un ennemi alors que vous étiez sous ralentissement/immobilisation
 
 ### Antidote
-- **Description:** Contre poison instantanément.
-- **Coût MP:** 20 PM/cible
-- **Condition:** Achat Boutique (spécialistes soins uniquement)
-
----
+- **Description :** Contre le poison instantanément.
+- **Coût MP :** 20 PM / cible
+- **Condition d’obtention :** Achat Boutique/Shop (spécialistes soins uniquement)
 
 ### Lance sacrée
-- **Description:** Lance de lumière infligeant dégâts.
-- **Coût MP:** 10 PM
-- **Condition:** Soigneur prêtre OU Paladin
-
----
+- **Description :** Lance de lumière infligeant des dégâts.
+- **Coût MP :** 10 PM
+- **Condition d’obtention :** Soigneur prêtre **OU** paladin
 
 ### Purification
-- **Description:** Purifie malédictions.
-- **Coût MP:** 50 PM
-- **Condition:** Non spécifié
+- **Description :** Purifie les malédictions.
+- **Coût MP :** 50 PM
+- **Condition d’obtention :** Non précisé
 
----
+---  
 
 ## 🎵 Skills de Buff
 
 ### Célérité
-- **Description:** AGI x2 allié pendant 3 tours.
-- **Coût MP:** 20 PM/cible
-- **Condition:** Achat Shop
+- **Description :** AGI x2 sur un allié pendant 3 tours.
+- **Coût MP :** 20 PM / cible
+- **Condition d’obtention :** Achat Shop
 
 ### Multi-célérité
-- **Description:** AGI x2 plusieurs cibles.
-- **Coût MP:** 50 PM
-- **Condition:** Utiliser "Célérité" sur plusieurs alliés
+- **Description :** AGI x2 sur plusieurs cibles.
+- **Coût MP :** 50 PM
+- **Condition d’obtention :** Utiliser “Célérité” sur plusieurs alliés
 
----
+---  
 
 ### Boost
-- **Description:** STR x2 pendant 3 tours.
-- **Coût MP:** 20 PM/cible
-- **Condition:** Achat Shop
+- **Description :** STR x2 pendant 3 tours.
+- **Coût MP :** 20 PM / cible
+- **Condition d’obtention :** Achat Shop
 
-### Multiboost
-- **Description:** STR x2 plusieurs alliés pendant 3 tours.
-- **Condition:** Lancer "Boost" sur plusieurs alliés
+### Multi-boost
+- **Description :** STR x2 sur plusieurs alliés pendant 3 tours.
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** Lancer “Boost” sur plusieurs alliés
 
----
+---  
 
 ### Chant de bataille
-- **Description:** HP x2 tous membres groupe pendant 3 tours.
-- **Coût MP:** 40 PM
-- **Condition:** Achat Shop
+- **Description :** HP x2 à tous les membres du groupe pendant 3 tours.
+- **Coût MP :** 40 PM
+- **Condition d’obtention :** Achat Shop
 
----
+---  
 
 ### Portée augmentée
-- **Description:** Augmente distance attaques + DEX x2 pendant 3 tours.
-- **Coût MP:** 40 PM
-- **Condition:** Achat Shop
+- **Description :** Augmente la portée d’attaque + DEX x2 pendant 3 tours.
+- **Coût MP :** 40 PM
+- **Condition d’obtention :** Achat Shop
 
----
+---  
 
 ### Transfert
-- **Description:** Transfère buff/enchantement à allié. S'additionne si buff déjà actif.
-- **Coût MP:** 40 PM
-- **Condition:** Achat Shop
+- **Description :** Transfère un buff/enchantement à un allié (se cumule avec un buff déjà actif).
+- **Coût MP :** 40 PM
+- **Condition d’obtention :** Achat Shop
 
 ### Multi-transfert
-- **Description:** Transfère buffs groupe à 1 membre.
-- **Coût MP:** 60 PM
-- **Condition:** Transférer plusieurs buffs dans même combat
+- **Description :** Transfère plusieurs buffs du groupe sur un seul membre.
+- **Coût MP :** 60 PM
+- **Condition d’obtention :** Transférer plusieurs buffs dans un même combat
 
----
+---  
 
 ### Amour dévoué
-- **Description:** Confère défense égale à la vôtre aux alliés <20m. Coût: 10% PV.
-- **Condition:** Accomplir quête "Amour Dévoué!"
+- **Description :** Confère aux alliés à moins de 20 m une défense égale à la vôtre, en échange de 10% de vos PV.
+- **Coût PV :** 10% PV
+- **Condition d’obtention :** Quête “Amour Dévoué !”
 
----
+---  
 
 ## 🔧 Skills Utilitaires
 
 ### Trap
-- **Description:** Prépare piège. Coût PM selon type. Puissance = DEX.
-- **Condition:** Spécialisation pièges
+- **Description :** Prépare un piège. Le coût dépend du type. La puissance dépend de DEX.
+- **Coût MP :** Variable
+- **Condition d’obtention :** Spécialisation pièges
 
 ### Pose à distance
-- **Description:** Pose pièges préparés à distance.
-- **Condition:** Spécialisation pièges
+- **Description :** Pose à distance des pièges préparés à l’avance.
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** Spécialisation pièges
 
----
+---  
 
 ### Téléportation
-- **Description:** Téléporte soi/cible courte distance. Longue distance: 5 tours préparation (sauf retour bercail).
-- **Condition:** Achat Shop
+- **Description :** Téléporte soi/cible sur courte distance. Longue distance : 5 tours de préparation (sauf retour au bercail).
+- **Coût MP :** 10 PM
+- **Condition d’obtention :** Achat Shop
 
 ### Multi-téléportation
-- **Description:** Téléporte avec 5 personnes max courte distance. Longue distance: 5 tours préparation.
-- **Condition:** Lancer "Téléportation" 3x dans même combat
+- **Description :** Téléporte jusqu’à 5 personnes sur courte distance. Longue distance : 5 tours de préparation.
+- **Coût MP :** Jusqu’à 50 PM (si plusieurs cibles)
+- **Condition d’obtention :** Lancer “Téléportation” 3x dans un même combat
 
----
+---  
 
 ### Psychokinésie
-- **Description:** Fait léviter cible (ennemi/objet).
-- **Condition:** Pièce event
+- **Description :** Fait léviter une cible (ennemi/objet).
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** Pièce event
 
----
+---  
 
 ### Lainage
-- **Description:** Crée laine à volonté. Protection attaques physiques. Peut être imbibée poison.
-- **Condition:** Jouer avec moutons
+- **Description :** Crée de la laine à volonté. Utile contre attaques physiques ; peut être imbibée de poison.
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** Jouer avec des moutons
 
----
+---  
 
 ### Gigantisme
-- **Description:** Devient Géant. Bonus dégâts + Résistance x2.
-- **Condition:** Pièce event
+- **Description :** Devient Géant. Bonus dégâts + résistance x2.
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** Pièce event
 
----
+---  
 
 ### Chroniques akashiques
-- **Description:** Obtient skill aléatoire (durée: 1 jour IRL).
-- **Condition:** ???
+- **Description :** Obtient un skill aléatoire (durée : 1 jour IRL).
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** ???
 
 ### Bibliothèque magique portable
-- **Description:** Stocke skills appris. Utilise mana en avance pour lancer instantanément sans coût mana ultérieur.
-- **Condition:** ???
+- **Description :** Stocke des skills appris. Utilise du mana en avance pour lancer instantanément plus tard sans coût.
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** ???
 
----
+---  
 
 ## ⚔️ Skills Épéiste (Voie du Samouraï)
 
-### 1er mouvement: Lame de Chaleur
-- **Description:** Coup lame chaud. Chance légère brûlure.
-- **Condition:** Quête "Voie du Samouraï I" (épéistes longues)
+### 1er mouvement : Lame de chaleur
+- **Description :** Coup de lame chauffée. Chance légère de brûlure.
+- **Coût MP :** 0
+- **Condition d’obtention :** Quête “Voie du Samouraï I” (épéistes longues)
 
-### 3ème lame: Arc Lunaire
-- **Description:** Ruée direction choisie (airs inclus) + Dégâts physiques.
-- **Condition:** Quête "Voie du Samouraï II"
+### 3ème lame : Arc lunaire
+- **Description :** Ruée dans la direction choisie (air inclus) + dégâts physiques.
+- **Coût MP :** 0
+- **Condition d’obtention :** Quête “Voie du Samouraï II” (épéistes longues)
 
----
+---  
 
 ## 🏹 Skills Spéciaux
 
 ### Agresseuse
-- **Description:** STR x2. Nécessite plus points pour VIT/AGI/INT.
-- **Condition:** Vaincre 5 boss (temps imparti) + 100+ STR
+- **Description :** STR x2, mais nécessite plus de points pour augmenter VIT/AGI/INT (détails exacts non précisés).
+- **Coût MP :** Passif
+- **Condition d’obtention :** Vaincre 5 boss (temps imparti défini MJ) + 100+ STR
 
 ### Reine/Roi de la destruction
-- **Description:** Porte arme 2 mains avec 1 main.
-- **Condition:** Terminer donjon (temps imparti) + 100+ STR
+- **Description :** Permet de porter une arme à 2 mains avec 1 seule main.
+- **Coût MP :** Passif
+- **Condition d’obtention :** Terminer un donjon (temps imparti défini MJ) + 100+ STR
 
----
+---  
 
-### One man Army
-- **Description:** Plus dégâts attaques zone.
-- **Condition:** Vaincre groupe 10+ monstres (même niveau/supérieur) solo
+### One Man Army
+- **Description :** Augmente les dégâts des attaques de zone.
+- **Coût MP :** Passif
+- **Condition d’obtention :** Vaincre un groupe de 10+ monstres (même niveau ou supérieur) en solo
 
-### Sacrifice du guerrier (Passif)
-- **Description:** Chaque 10% HP perdu = +10% puissance attaque.
-- **Condition:** Lvl 10 avec "Goinfre" dans hache
+### Sacrifice du guerrier *(Passif)*
+- **Description :** Chaque 10% de HP perdu = +10% puissance d’attaque.
+- **Coût MP :** Passif
+- **Condition d’obtention :** Lvl 10 avec “Goinfre” dans une hache
 
 ### Glouton
-- **Description:** Régénère plus PV quand PV bas.
-- **Condition:** Manger plusieurs types ennemis
+- **Description :** Régénère davantage de PV quand les PV sont bas.
+- **Coût MP :** Passif
+- **Condition d’obtention :** Manger plusieurs types d’ennemis
 
-### Attaque répétitif
-- **Description:** Rolls égaux = Dégâts augmentent exponentiellement.
-- **Condition:** Obtenir 3x même roll
+### Attaque répétitive
+- **Description :** Quand un même score de roll se répète, les dégâts augmentent exponentiellement.
+- **Coût MP :** Passif
+- **Condition d’obtention :** Obtenir 3 fois le même roll
 
----
+---  
 
 ### Insectologue
-- **Description:** Connaît points faibles monstres insectes.
-- **Condition:** Artisan frappant parfaitement monstre insecte
+- **Description :** Connaît les points faibles des monstres insectes.
+- **Coût MP :** Passif
+- **Condition d’obtention :** Artisan frappant parfaitement un monstre insecte
 
 ### Maîtresse des insectes
-- **Description:** +10% attaque vs insectes (en plus "Insectologue").
-- **Condition:** "Insectologue" + Coup critique zone faiblesse
+- **Description :** +10% attaque vs insectes (en plus d’“Insectologue”).
+- **Coût MP :** Passif
+- **Condition d’obtention :** “Insectologue” + coup critique sur la zone de faiblesse
+
+---  
+
+## ✨ Ajouts (présents dans la version “mise à jour”)
+
+### Pouvoir magique renforcé *(Passif)*
+- **Description :** Tous les 1000 INT, +10% de dégâts bonus magiques. Vous débutez avec +10% dégâts magiques.
+- **Coût MP :** Passif
+- **Condition d’obtention :** Mettre 100 points en INT
+
+### Pugiliste *(Passif)*
+- **Description :**
+    - Permet d’équiper des armes de tout type, mais **empêche** l’usage d’armes sauf **armes à 1 main** & **bâton**.
+    - Dégâts +20% et possibilité de repousser l’adversaire.
+    - Sur Roll 20 : **étourdit** (sauf immunités).
+- **Coût MP :** Passif
+- **Condition d’obtention :** Vaincre au début du jeu des ennemis sans utiliser d’arme
+
+### Opportuniste *(Passif)*
+- **Description :** Si vous attaquez un adversaire **sans vous défendre**, et que votre roll est supérieur : vous effectuez une attaque **perce-armure** et infligez **x2** dégâts de votre attaque.
+- **Coût MP :** Passif
+- **Condition d’obtention :** Ne pas se défendre, survivre, et vaincre ses adversaires
+
+### Contre sanglant
+- **Description :** Vague d’énergie physique surpuissante basée sur les dégâts accumulés. Dégâts **bruts**. Utilisable uniquement avec “Pugiliste”.
+- **Cooldown :** 3 tours
+- **Coût MP :** Non précisé
+- **Condition d’obtention :** Se battre seul et sans arme contre des mobs de même niveau ou + en étant acculé (10% HP restants ou moins)
+
+### Skill évolutif : “Bastonneur” → “Combattant aguerri” → … → “Patron de l’arène”
+- **Note :** Grades intermédiaires non précisés.
+
+### Patron de l’arène *(Passif)*
+- **Description :**
+    - Si vous êtes seul contre un groupe : STR +20% et HP doublés.
+    - Plus le combat dure, plus vos dégâts augmentent (+10% par tranche).
+    - En atteignant 100 (valeur/stack/charge non précisée), vous obtenez des dégâts bruts (armure ignorée).
+    - “Contre sanglant” scale avec “Patron de l’arène”.
+- **Coût MP :** Passif
+- **Condition d’obtention :** Avoir “Contre sanglant”
+
+---  
+
+*De futurs skills peuvent être ajoutés ici.*
