@@ -1,4 +1,8 @@
-# 📖 Bestiaire Bofuri RP - Stats Détaillées (Mise à jour complète)
+# 📖 Bestiaire Bofuri RP - Stats Détaillées
+> **Règles appliquées**
+> - **STR = Attaque de base** (partout).
+> - Quand une fiche **n’avait pas** “Attaque de base”, j’ai **ajouté** : *Attaque de base = STR*.
+> - Ajustements légers “anti-stats trop basses” sur quelques mobs bas niveau (AGI/DEX/INT/VIT) sans toucher au reste.
 
 ---
 
@@ -9,7 +13,7 @@
 **Niveau 1:**
 - **HP:** 10/10
 - **MP:** 5/5
-- **STR:** 3
+- **STR:** 5
 - **AGI:** 8
 - **INT:** 2
 - **DEX:** 5
@@ -21,7 +25,7 @@
 **Niveau 5:**
 - **HP:** 30/30
 - **MP:** 15/15
-- **STR:** 8
+- **STR:** 15
 - **AGI:** 15
 - **INT:** 5
 - **DEX:** 10
@@ -37,7 +41,7 @@
 **Niveau 1:**
 - **HP:** 15/15
 - **MP:** 10/10
-- **STR:** 4
+- **STR:** 5
 - **AGI:** 10
 - **INT:** 3
 - **DEX:** 8
@@ -50,7 +54,7 @@
 **Niveau 10:**
 - **HP:** 50/50
 - **MP:** 30/30
-- **STR:** 15
+- **STR:** 30
 - **AGI:** 25
 - **INT:** 8
 - **DEX:** 20
@@ -66,15 +70,15 @@
 
 - **HP:** 70/70
 - **MP:** 80/80
-- **STR:** 25
+- **STR:** 60
 - **AGI:** 30
 - **INT:** 35
 - **DEX:** 28
 - **VIT:** 14
 - **Attaque de base:** 60
 - **Compétences:**
-    - **Cri de la reine:** Quand PV dans le rouge, invoque 1-5 abeilles selon roll (max 15)
-    - **Dard empoisonné:** 30/tour
+  - **Cri de la reine:** Quand PV dans le rouge, invoque 1-5 abeilles selon roll (max 15)
+  - **Dard empoisonné:** 30/tour
 - **Drop:** Miel royal, Ailes d'abeille magique
 - **Zone:** Forêt
 
@@ -98,7 +102,7 @@
 **Niveau 10:**
 - **HP:** 50/50
 - **MP:** 25/25
-- **STR:** 18
+- **STR:** 30
 - **AGI:** 15
 - **INT:** 12
 - **DEX:** 22
@@ -115,7 +119,7 @@
 **Niveau 1:**
 - **HP:** 12/12
 - **MP:** 5/5
-- **STR:** 4
+- **STR:** 5
 - **AGI:** 3
 - **INT:** 2
 - **DEX:** 4
@@ -127,7 +131,7 @@
 **Niveau 10:**
 - **HP:** 45/45
 - **MP:** 20/20
-- **STR:** 16
+- **STR:** 30
 - **AGI:** 8
 - **INT:** 6
 - **DEX:** 10
@@ -139,7 +143,7 @@
 **Niveau 12 (Élite - Donjon Hydre):**
 - **HP:** 80/80
 - **MP:** 30/30
-- **STR:** 22
+- **STR:** 40
 - **AGI:** 10
 - **INT:** 8
 - **DEX:** 14
@@ -155,7 +159,7 @@
 **Niveau 3:**
 - **HP:** 25/25
 - **MP:** 15/15
-- **STR:** 8
+- **STR:** 10
 - **AGI:** 12
 - **INT:** 5
 - **DEX:** 10
@@ -168,7 +172,7 @@
 **Niveau 10:**
 - **HP:** 60/60
 - **MP:** 40/40
-- **STR:** 18
+- **STR:** 30
 - **AGI:** 22
 - **INT:** 10
 - **DEX:** 20
@@ -185,7 +189,7 @@
 **Niveau 10:**
 - **HP:** 150/150
 - **MP:** 60/60
-- **STR:** 30
+- **STR:** 50
 - **AGI:** 28
 - **INT:** 15
 - **DEX:** 25
@@ -198,7 +202,7 @@
 **Niveau 15:**
 - **HP:** 250/250
 - **MP:** 90/90
-- **STR:** 45
+- **STR:** 70
 - **AGI:** 38
 - **INT:** 20
 - **DEX:** 35
@@ -215,7 +219,7 @@
 **Niveau 10:**
 - **HP:** 40/40
 - **MP:** 25/25
-- **STR:** 20
+- **STR:** 30
 - **AGI:** 18
 - **INT:** 12
 - **DEX:** 22
@@ -227,7 +231,7 @@
 **Niveau 15:**
 - **HP:** 65/65
 - **MP:** 40/40
-- **STR:** 30
+- **STR:** 50
 - **AGI:** 25
 - **INT:** 18
 - **DEX:** 30
@@ -243,11 +247,11 @@
 **Niveau 10:**
 - **HP:** 20/20
 - **MP:** 15/15
-- **STR:** 15
+- **STR:** 30
 - **AGI:** 12
 - **INT:** 8
 - **DEX:** 10
-- **VIT:** 4
+- **VIT:** 7
 - **Attaque de base:** 30
 - **Explosion (à la mort):** 50
 - **Drop:** Poudre explosive, Mèche allumée
@@ -256,11 +260,11 @@
 **Niveau 15:**
 - **HP:** 35/35
 - **MP:** 25/25
-- **STR:** 25
+- **STR:** 50
 - **AGI:** 18
 - **INT:** 12
 - **DEX:** 15
-- **VIT:** 6
+- **VIT:** 11
 - **Attaque de base:** 50
 - **Explosion (à la mort):** 80
 - **Drop:** Charbon, Bouchon enflammé
@@ -275,10 +279,10 @@
 **Niveau 5:**
 - **HP:** 100/100
 - **MP:** 20/20
-- **STR:** 5
-- **AGI:** 3
+- **STR:** 15
+- **AGI:** 4
 - **INT:** 4
-- **DEX:** 2
+- **DEX:** 4
 - **VIT:** 25
 - **Attaque de base:** 15
 - **Drop:** Gelée pure, Viscosité
@@ -287,10 +291,10 @@
 **Niveau 10:**
 - **HP:** 100/100
 - **MP:** 35/35
-- **STR:** 12
-- **AGI:** 5
+- **STR:** 30
+- **AGI:** 8
 - **INT:** 8
-- **DEX:** 4
+- **DEX:** 8
 - **VIT:** 35
 - **Attaque de base:** 30
 - **Mucus gluant:** Immobilise + 20% dégâts subis (cumulable)
@@ -300,10 +304,10 @@
 **Niveau 12 (Élite - Donjon Hydre):**
 - **HP:** 150/150
 - **MP:** 45/45
-- **STR:** 18
-- **AGI:** 6
+- **STR:** 40
+- **AGI:** 10
 - **INT:** 10
-- **DEX:** 5
+- **DEX:** 10
 - **VIT:** 45
 - **Attaque de base:** 40
 - **Mucus gluant:** Immobilise + 20% dégâts subis (cumulable)
@@ -318,7 +322,7 @@
 
 - **HP:** 1500/1500
 - **MP:** 200/200
-- **STR:** 60
+- **STR:** 50
 - **AGI:** 20
 - **INT:** 45
 - **DEX:** 30
@@ -336,15 +340,15 @@
 
 - **HP:** 1000/1000
 - **MP:** 150/150
-- **STR:** 35
+- **STR:** 40
 - **AGI:** 25
 - **INT:** 40
 - **DEX:** 30
 - **VIT:** 50
 - **Attaque de base:** 40
 - **Compétences:**
-    - **Brume d'encre:** Réduit précision (12+ pour toucher au lieu de 10+)
-    - **Rayon d'eau:** 60 dégâts
+  - **Brume d'encre:** Réduit précision (12+ pour toucher au lieu de 10+)
+  - **Rayon d'eau:** 60 dégâts
 - **Drop:** Tentacule géant, Encre magique, Perle des profondeurs
 - **Zone:** Donjon de la Pêche
 
@@ -357,9 +361,9 @@
 **Niveau 12:**
 - **HP:** 80/80
 - **MP:** 10/10
-- **STR:** 22
-- **AGI:** 8
-- **INT:** 5
+- **STR:** 30
+- **AGI:** 10
+- **INT:** 8
 - **DEX:** 10
 - **VIT:** 18
 - **Attaque de base:** 30
@@ -369,7 +373,7 @@
 **Niveau 20:**
 - **HP:** 150/150
 - **MP:** 20/20
-- **STR:** 45
+- **STR:** 70
 - **AGI:** 12
 - **INT:** 8
 - **DEX:** 15
@@ -385,7 +389,7 @@
 **Niveau 12:**
 - **HP:** 60/60
 - **MP:** 40/40
-- **STR:** 18
+- **STR:** 30
 - **AGI:** 20
 - **INT:** 30
 - **DEX:** 22
@@ -398,7 +402,7 @@
 **Niveau 20:**
 - **HP:** 120/120
 - **MP:** 80/80
-- **STR:** 35
+- **STR:** 70
 - **AGI:** 35
 - **INT:** 55
 - **DEX:** 40
@@ -416,9 +420,9 @@
 
 - **HP:** 200/200
 - **MP:** 30/30
-- **STR:** 50
+- **STR:** 70
 - **AGI:** 25
-- **INT:** 8
+- **INT:** 12
 - **DEX:** 20
 - **VIT:** 40
 - **Attaque de base:** 70
@@ -433,9 +437,9 @@
 **Version Standard (Nature):**
 - **HP:** 180/180
 - **MP:** 25/25
-- **STR:** 55
+- **STR:** 75
 - **AGI:** 20
-- **INT:** 10
+- **INT:** 12
 - **DEX:** 18
 - **VIT:** 38
 - **Attaque de base:** 75
@@ -445,7 +449,7 @@
 **Version Élite (Donjon):**
 - **HP:** 250/250
 - **MP:** 35/35
-- **STR:** 65
+- **STR:** 90
 - **AGI:** 22
 - **INT:** 12
 - **DEX:** 20
@@ -460,21 +464,20 @@
 
 - **HP:** 1500/1500
 - **MP:** 300/300
-- **STR:** 70
+- **STR:** 100
 - **AGI:** 45
 - **INT:** 80
 - **DEX:** 50
 - **VIT:** 85
 - **Attaque de base:** 100
 - **Compétences:**
-    - **Coup étourdissant:** Étourdit cible 5 tours
-    - **Bouclier magique:** Immunité effets secondaires (poison, etc.)
-    - **Régénération:** Récupère tous PV tant qu'il a des pommes sur bois
+  - **Coup étourdissant:** Étourdit cible 5 tours
+  - **Bouclier magique:** Immunité effets secondaires (poison, etc.)
+  - **Régénération:** Récupère tous PV tant qu'il a des pommes sur bois
 - **Drop:** Bois de cerf sacré, Pomme de vie, Couronne de nature
 - **Zone:** Donjon de l'Arbre Honey
 
 ---
-
 ---
 
 ## ⚔️ **PALIER 2**
@@ -483,7 +486,7 @@
 
 - **HP:** 1000/1000
 - **MP:** 100/100
-- **STR:** 80
+- **STR:** 100
 - **AGI:** 35
 - **INT:** 25
 - **DEX:** 40
@@ -500,24 +503,25 @@
 **Phase 1:**
 - **HP:** 2500/2500
 - **MP:** 400/400
-- **STR:** 60
+- **STR:** 100
 - **AGI:** 70
 - **INT:** 120
 - **DEX:** 65
 - **VIT:** 90
 - **Attaque de base:** 100
 - **Compétences:**
-    - **Pluie de plumes:** 50/plume
-    - **Javelot de glace:** 150
-    - **Gel instantané:** Glacifie attaques liquides (réduction dégâts, sauf après attaque vent)
-    - **Laserglace:** 200
+  - **Pluie de plumes:** 50/plume
+  - **Javelot de glace:** 150
+  - **Gel instantané:** Glacifie attaques liquides (réduction dégâts, sauf après attaque vent)
+  - **Laserglace:** 200
 - **Drop (Phase 1):** Plume de glace, Cristal gelé
 
 **Phase 2: Phénix des ténèbres noires** (à 30% HP)
 - **HP:** 750/2500 (restant)
 - **MP:** 200/400
-- **STR:** 90
+- **STR:** 200
 - **INT:** 150
+- **Attaque de base:** 200 x3
 - **Attaque de flammes noires:** 200 x3
 - **Durée:** 3 tours
 - **Drop (Phase 2):** Plume des ténèbres, Cœur de phénix, Essence duale
@@ -529,11 +533,12 @@
 
 - **HP:** 2000/2000
 - **MP:** 250/250
-- **STR:** 85
+- **STR:** 150
 - **AGI:** 50
 - **INT:** 60
 - **DEX:** 55
 - **VIT:** 75
+- **Attaque de base:** 150
 - **Frappe tentaculaire:** 150
 - **Drop:** Tentacule du Kraken, Encre abyssale
 - **Zone:** Event
@@ -545,7 +550,7 @@
 **Niveau 20:**
 - **HP:** 200/200
 - **MP:** 50/50
-- **STR:** 50
+- **STR:** 70
 - **AGI:** 15
 - **INT:** 30
 - **DEX:** 20
@@ -557,7 +562,7 @@
 **Niveau 25:**
 - **HP:** 280/280
 - **MP:** 70/70
-- **STR:** 70
+- **STR:** 100
 - **AGI:** 18
 - **INT:** 40
 - **DEX:** 25
@@ -573,7 +578,7 @@
 **Niveau 20:**
 - **HP:** 150/150
 - **MP:** 60/60
-- **STR:** 50
+- **STR:** 70
 - **AGI:** 45
 - **INT:** 20
 - **DEX:** 40
@@ -586,7 +591,7 @@
 **Niveau 25:**
 - **HP:** 200/200
 - **MP:** 80/80
-- **STR:** 70
+- **STR:** 100
 - **AGI:** 60
 - **INT:** 25
 - **DEX:** 55
@@ -603,7 +608,7 @@
 **Niveau 5:**
 - **HP:** 120/120
 - **MP:** 5/5
-- **STR:** 25
+- **STR:** 30
 - **AGI:** 5
 - **INT:** 3
 - **DEX:** 8
@@ -615,7 +620,7 @@
 **Niveau 25:**
 - **HP:** 400/400
 - **MP:** 20/20
-- **STR:** 90
+- **STR:** 100
 - **AGI:** 12
 - **INT:** 10
 - **DEX:** 18
@@ -630,7 +635,7 @@
 
 - **HP:** 2500/2500
 - **MP:** 350/350
-- **STR:** 90
+- **STR:** 200
 - **AGI:** 55
 - **INT:** 100
 - **DEX:** 60
@@ -648,7 +653,7 @@
 **Phase 1:**
 - **HP:** 1500/1500
 - **MP:** 200/200
-- **STR:** 95
+- **STR:** 200
 - **AGI:** 50
 - **INT:** 70
 - **DEX:** 55
@@ -669,7 +674,7 @@
 
 - **HP:** 3000/3000
 - **MP:** 400/400
-- **STR:** 120
+- **STR:** 300
 - **AGI:** 60
 - **INT:** 80
 - **DEX:** 70
@@ -679,7 +684,6 @@
 - **Zone:** Passage Palier 3
 
 ---
-
 ---
 
 ## ⚙️ **PALIER 3**
@@ -710,7 +714,7 @@
 **Niveau 30:**
 - **HP:** 350/350
 - **MP:** 120/120
-- **STR:** 90
+- **STR:** 150
 - **AGI:** 85
 - **INT:** 35
 - **DEX:** 75
@@ -722,7 +726,7 @@
 **Niveau 35:**
 - **HP:** 450/450
 - **MP:** 150/150
-- **STR:** 110
+- **STR:** 180
 - **AGI:** 100
 - **INT:** 40
 - **DEX:** 90
@@ -738,7 +742,7 @@
 **Niveau 30:**
 - **HP:** 320/320
 - **MP:** 100/100
-- **STR:** 85
+- **STR:** 150
 - **AGI:** 60
 - **INT:** 45
 - **DEX:** 80
@@ -750,7 +754,7 @@
 **Niveau 35:**
 - **HP:** 420/420
 - **MP:** 130/130
-- **STR:** 105
+- **STR:** 180
 - **AGI:** 75
 - **INT:** 55
 - **DEX:** 95
@@ -765,21 +769,20 @@
 
 - **HP:** 4000/4000
 - **MP:** 600/600
-- **STR:** 150
+- **STR:** 400
 - **AGI:** 50
 - **INT:** 100
 - **DEX:** 70
 - **VIT:** 150
 - **Attaque de base:** 400
 - **Compétences:**
-    - **Environnement hostile:** 5% HP/tour à tous (sauf lui)
-    - **Canon multiple:** 200/tir
-    - **Déferlement de lave:** 500 (zone)
+  - **Environnement hostile:** 5% HP/tour à tous (sauf lui)
+  - **Canon multiple:** 200/tir
+  - **Déferlement de lave:** 500 (zone)
 - **Drop:** Clé du 4ème palier, Cœur de lave, Armure d'Oursobot
 - **Zone:** Passage Palier 4
 
 ---
-
 ---
 
 ## 🌙 **PALIER 4**
@@ -789,7 +792,7 @@
 **Niveau 40:**
 - **HP:** 600/600
 - **MP:** 200/200
-- **STR:** 120
+- **STR:** 300
 - **AGI:** 100
 - **INT:** 80
 - **DEX:** 110
@@ -801,7 +804,7 @@
 **Niveau 45:**
 - **HP:** 750/750
 - **MP:** 250/250
-- **STR:** 145
+- **STR:** 350
 - **AGI:** 120
 - **INT:** 95
 - **DEX:** 130
@@ -817,7 +820,7 @@
 **Niveau 40:**
 - **HP:** 3000/3000
 - **MP:** 150/150
-- **STR:** 140
+- **STR:** 300
 - **AGI:** 60
 - **INT:** 30
 - **DEX:** 70
@@ -829,7 +832,7 @@
 **Niveau 45:**
 - **HP:** 3500/3500
 - **MP:** 180/180
-- **STR:** 165
+- **STR:** 350
 - **AGI:** 70
 - **INT:** 35
 - **DEX:** 80
@@ -845,7 +848,7 @@
 **Niveau 40:**
 - **HP:** 3000/3000
 - **MP:** 180/180
-- **STR:** 130
+- **STR:** 300
 - **AGI:** 80
 - **INT:** 40
 - **DEX:** 85
@@ -857,7 +860,7 @@
 **Niveau 45:**
 - **HP:** 3500/3500
 - **MP:** 220/220
-- **STR:** 155
+- **STR:** 350
 - **AGI:** 95
 - **INT:** 50
 - **DEX:** 100
@@ -873,7 +876,7 @@
 **Niveau 40:**
 - **HP:** 3000/3000
 - **MP:** 150/150
-- **STR:** 125
+- **STR:** 300
 - **AGI:** 50
 - **INT:** 45
 - **DEX:** 70
@@ -885,7 +888,7 @@
 **Niveau 45:**
 - **HP:** 3500/3500
 - **MP:** 180/180
-- **STR:** 150
+- **STR:** 350
 - **AGI:** 60
 - **INT:** 55
 - **DEX:** 85
@@ -901,7 +904,7 @@
 **Niveau 40:**
 - **HP:** 3000/3000
 - **MP:** 200/200
-- **STR:** 115
+- **STR:** 300
 - **AGI:** 40
 - **INT:** 60
 - **DEX:** 65
@@ -914,7 +917,7 @@
 **Niveau 45:**
 - **HP:** 3500/3500
 - **MP:** 240/240
-- **STR:** 140
+- **STR:** 350
 - **AGI:** 50
 - **INT:** 75
 - **DEX:** 80
@@ -931,7 +934,7 @@
 **Niveau 40:**
 - **HP:** 3000/3000
 - **MP:** 220/220
-- **STR:** 120
+- **STR:** 300
 - **AGI:** 110
 - **INT:** 70
 - **DEX:** 130
@@ -944,7 +947,7 @@
 **Niveau 45:**
 - **HP:** 3500/3500
 - **MP:** 270/270
-- **STR:** 145
+- **STR:** 350
 - **AGI:** 130
 - **INT:** 85
 - **DEX:** 155
@@ -960,7 +963,7 @@
 
 - **HP:** 4500/4500
 - **MP:** 600/600
-- **STR:** 180
+- **STR:** 500
 - **AGI:** 140
 - **INT:** 110
 - **DEX:** 150
@@ -977,7 +980,7 @@
 **Niveau 45:**
 - **HP:** 3000/3000
 - **MP:** 300/300
-- **STR:** 110
+- **STR:** 350
 - **AGI:** 120
 - **INT:** 140
 - **DEX:** 125
@@ -989,7 +992,7 @@
 **Niveau 50:**
 - **HP:** 3500/3500
 - **MP:** 400/400
-- **STR:** 135
+- **STR:** 500
 - **AGI:** 145
 - **INT:** 170
 - **DEX:** 150
@@ -1004,7 +1007,7 @@
 
 - **HP:** 800/800 (par tréant)
 - **MP:** 150/150
-- **STR:** 150
+- **STR:** 700
 - **AGI:** 40
 - **INT:** 80
 - **DEX:** 60
@@ -1019,7 +1022,7 @@
 
 - **HP:** 5000/5000
 - **MP:** 800/800
-- **STR:** 160
+- **STR:** 1000
 - **AGI:** 150
 - **INT:** 180
 - **DEX:** 155
@@ -1034,7 +1037,7 @@
 
 - **HP:** 1200/1200
 - **MP:** 300/300
-- **STR:** 140
+- **STR:** 700
 - **AGI:** 160
 - **INT:** 100
 - **DEX:** 170
@@ -1049,15 +1052,15 @@
 
 - **HP:** 5000/5000
 - **MP:** 700/700
-- **STR:** 200
+- **STR:** 1000
 - **AGI:** 120
 - **INT:** 150
 - **DEX:** 140
 - **VIT:** 160
 - **Attaque de base:** 1000
 - **Compétences:**
-    - **Aura surpuissante:** Repousse attaques distance (0 dégâts, fonctionne vs "Hydre")
-    - **Perce-armure:** Ignore défense
+  - **Aura surpuissante:** Repousse attaques distance (0 dégâts, fonctionne vs "Hydre")
+  - **Perce-armure:** Ignore défense
 - **Drop:** Katana de Ryuja, Parchemin du maître, Médaillon de la tour
 - **Zone:** Temple de Ryuja
 
@@ -1067,7 +1070,7 @@
 
 - **HP:** 5000/5000
 - **MP:** 900/900
-- **STR:** 170
+- **STR:** 1000
 - **AGI:** 140
 - **INT:** 200
 - **DEX:** 150
@@ -1088,6 +1091,7 @@
 - **INT:** 190
 - **DEX:** 145
 - **VIT:** 150
+- **Attaque de base:** 180
 - **Attaque foudroyante:** 2000
 - **Fissure du vent:** Fend sol nuageux en 2
 - **Drop:** Lance céleste, Ailes d'apôtre, Fragment divin
@@ -1102,7 +1106,7 @@
 **Niveau 50:**
 - **HP:** 1000/1000
 - **MP:** 350/350
-- **STR:** 150
+- **STR:** 700
 - **AGI:** 140
 - **INT:** 120
 - **DEX:** 145
@@ -1114,7 +1118,7 @@
 **Niveau 55:**
 - **HP:** 1200/1200
 - **MP:** 420/420
-- **STR:** 175
+- **STR:** 850
 - **AGI:** 165
 - **INT:** 140
 - **DEX:** 170
@@ -1129,7 +1133,7 @@
 
 - **HP:** 5500/5500
 - **MP:** 1000/1000
-- **STR:** 190
+- **STR:** 1000
 - **AGI:** 150
 - **INT:** 210
 - **DEX:** 165
@@ -1148,7 +1152,7 @@
 **Niveau 55:**
 - **HP:** 1100/1100
 - **MP:** 500/500
-- **STR:** 160
+- **STR:** 1000
 - **AGI:** 155
 - **INT:** 200
 - **DEX:** 170
@@ -1160,7 +1164,7 @@
 **Niveau 60:**
 - **HP:** 1300/1300
 - **MP:** 600/600
-- **STR:** 185
+- **STR:** 1200
 - **AGI:** 180
 - **INT:** 230
 - **DEX:** 195
@@ -1176,7 +1180,7 @@
 **Niveau 55:**
 - **HP:** 1050/1050
 - **MP:** 550/550
-- **STR:** 155
+- **STR:** 1000
 - **AGI:** 165
 - **INT:** 210
 - **DEX:** 175
@@ -1188,7 +1192,7 @@
 **Niveau 60:**
 - **HP:** 1250/1250
 - **MP:** 650/650
-- **STR:** 180
+- **STR:** 1200
 - **AGI:** 190
 - **INT:** 240
 - **DEX:** 200
@@ -1204,7 +1208,7 @@
 **Niveau 55:**
 - **HP:** 1400/1400
 - **MP:** 200/200
-- **STR:** 180
+- **STR:** 1000
 - **AGI:** 80
 - **INT:** 50
 - **DEX:** 90
@@ -1216,7 +1220,7 @@
 **Niveau 60:**
 - **HP:** 1600/1600
 - **MP:** 250/250
-- **STR:** 210
+- **STR:** 1200
 - **AGI:** 95
 - **INT:** 60
 - **DEX:** 105
@@ -1232,7 +1236,7 @@
 **Niveau 55:**
 - **HP:** 800/800
 - **MP:** 600/600
-- **STR:** 140
+- **STR:** 1000
 - **AGI:** 180
 - **INT:** 220
 - **DEX:** 185
@@ -1244,7 +1248,7 @@
 **Niveau 60:**
 - **HP:** 950/950
 - **MP:** 700/700
-- **STR:** 165
+- **STR:** 1200
 - **AGI:** 205
 - **INT:** 250
 - **DEX:** 210
@@ -1266,10 +1270,11 @@
 - **INT:** 180
 - **DEX:** 130
 - **VIT:** 250
+- **Attaque de base:** 220
 - **Compétences:**
-    - **Barrière magique:** Protège vs magie (sauf pendant souffle)
-    - **Souffle de pierre:** 2000
-    - **Écaille solide:** -99% dégâts extérieur, x3 dégâts intérieur
+  - **Barrière magique:** Protège vs magie (sauf pendant souffle)
+  - **Souffle de pierre:** 2000
+  - **Écaille solide:** -99% dégâts extérieur, x3 dégâts intérieur
 - **Drop:** Écaille de dragon, Cœur de terre, Griffe titanesque
 - **Zone:** Event
 
@@ -1284,6 +1289,7 @@
 - **INT:** 300
 - **DEX:** 160
 - **VIT:** 200
+- **Attaque de base:** 150
 - **Vole-skill:** Vole temporairement compétences adversaire
 - **Drop:** Livre ancien, Parchemin de connaissance, Clé de bibliothèque
 - **Zone:** Event
@@ -1300,6 +1306,7 @@
 - **INT:** 250
 - **DEX:** 140
 - **VIT:** 220
+- **Attaque de base:** 200
 - **Drop (Phase 1):** Cristal de lave, Glace éternelle
 
 **Phase 2:**
@@ -1307,6 +1314,7 @@
 - **MP:** 600/1200
 - **STR:** 250
 - **INT:** 300
+- **Attaque de base:** 250
 - **Drop (Phase 2):** Noyau élémentaire, Essence duale
 - **Zone:** Event
 
@@ -1321,6 +1329,7 @@
 - **INT:** 140
 - **DEX:** 100
 - **VIT:** 300
+- **Attaque de base:** 180
 - **Carapace:** Immunité dégâts sur carapace
 - **Drop:** Carapace antique, Perle de mer, Écaille légendaire
 - **Zone:** Event
@@ -1336,6 +1345,7 @@
 - **INT:** 100
 - **DEX:** 150
 - **VIT:** 210
+- **Attaque de base:** 250
 - **Coup d'épée:** 3000
 - **Drop:** Épée géante maudite, Armure de squelette, Crâne colossal
 - **Zone:** Event
@@ -1351,6 +1361,7 @@
 - **INT:** 320
 - **DEX:** 160
 - **VIT:** 180
+- **Attaque de base:** 150
 - **Invocation:** Armée de monstres (sauf boss/rares)
 - **Drop:** Bâton de liche, Grimoire ancien, Phylactère
 - **Zone:** Event
@@ -1366,9 +1377,10 @@
 - **INT:** 120
 - **DEX:** 110
 - **VIT:** 240
+- **Attaque de base:** 230
 - **Compétences:**
-    - **Roule mabroule:** Oneshot si écrasé
-    - **Lance-pique:** Dégâts zone
+  - **Roule mabroule:** Oneshot si écrasé
+  - **Lance-pique:** Dégâts zone
 - **Drop:** Pique de glace, Écaille de dino, Fossile gelé
 - **Zone:** Event
 
@@ -1378,15 +1390,15 @@
 
 - **HP:** 6000/6000
 - **MP:** 900/900
-- **STR:** 190
+- **STR:** 1000
 - **AGI:** 180
 - **INT:** 160
 - **DEX:** 220
 - **VIT:** 190
 - **Attaque de base:** 1000
 - **Compétences:**
-    - **Camouflage de l'ombre:** Invisibilité
-    - **Langue somnifère:** Endort cible
+  - **Camouflage de l'ombre:** Invisibilité
+  - **Langue somnifère:** Endort cible
 - **Drop:** Peau de caméléon, Langue magique, Œil argenté
 - **Zone:** Event
 
@@ -1401,9 +1413,10 @@
 - **INT:** 350
 - **DEX:** 170
 - **VIT:** 250
+- **Attaque de base:** 180
 - **Compétences:**
-    - **Barrière gravitationnelle:** Repousse corps-à-corps (sauf attaques répétitives)
-    - **Copie-cast:** Renvoie sorts
+  - **Barrière gravitationnelle:** Repousse corps-à-corps (sauf attaques répétitives)
+  - **Copie-cast:** Renvoie sorts
 - **Drop:** Fragment de tour, Archives royales, Clé akashique
 - **Zone:** Event
 
@@ -1414,7 +1427,7 @@
 **Phase 1:**
 - **HP:** 6000/6000
 - **MP:** 1500/1500
-- **STR:** 240
+- **STR:** 4000
 - **AGI:** 160
 - **INT:** 200
 - **DEX:** 180
@@ -1427,12 +1440,13 @@
 **Phase 2** (à 50% HP):
 - **HP:** 3000/6000
 - **MP:** 750/1500
-- **STR:** 280
+- **STR:** 4000
 - **INT:** 250
+- **Attaque de base:** 4000
 - **Compétences:**
-    - **Cercle de lumière:** Oneshot si dans zone (sauf skill survie)
-    - **Frappe enflammée:** 5000/coup
-    - **10 épées du commandement:** Invoque 10 épées flammes
+  - **Cercle de lumière:** Oneshot si dans zone (sauf skill survie)
+  - **Frappe enflammée:** 5000/coup
+  - **10 épées du commandement:** Invoque 10 épées flammes
 - **Drop (Phase 2):** Épée de l'élu déchu, Cœur corrompu, Couronne des ténèbres
 - **Zone:** Event
 
@@ -1443,7 +1457,7 @@
 **Niveau 25:**
 - **HP:** 500/500
 - **MP:** 100/100
-- **STR:** 90
+- **STR:** 100
 - **AGI:** 25
 - **INT:** 50
 - **DEX:** 35
@@ -1455,7 +1469,7 @@
 **Niveau 60:**
 - **HP:** 2000/2000
 - **MP:** 400/400
-- **STR:** 220
+- **STR:** 1200
 - **AGI:** 50
 - **INT:** 140
 - **DEX:** 80
@@ -1465,7 +1479,6 @@
 - **Zone:** Forêt Palier 6
 
 ---
-
 ---
 
 ## 📊 **STATISTIQUES & LÉGENDE**
@@ -1493,5 +1506,3 @@
 - ⚙️ Zone Mécanique
 - 🌙 Zone Crépuscule
 - ☁️ Zone Céleste
-
----
