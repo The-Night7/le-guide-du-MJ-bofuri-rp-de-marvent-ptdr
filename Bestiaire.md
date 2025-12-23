@@ -1,8 +1,10 @@
-# 📖 Bestiaire Bofuri RP - Stats Détaillées
+# 📖 Bestiaire Bofuri RP - Stats Détaillées (Mise à jour complète — FINAL)
+
 > **Règles appliquées**
 > - **STR = Attaque de base** (partout).
 > - Quand une fiche **n’avait pas** “Attaque de base”, j’ai **ajouté** : *Attaque de base = STR*.
 > - Ajustements légers “anti-stats trop basses” sur quelques mobs bas niveau (AGI/DEX/INT/VIT) sans toucher au reste.
+> - **Ajout systématique d’une ligne “Niveau X:”** même quand il n’y a qu’un seul niveau.
 
 ---
 
@@ -68,6 +70,7 @@
 
 ### **Reine des abeilles** (Lvl 10) 👑 *Monstre Rare*
 
+**Niveau 10:**
 - **HP:** 70/70
 - **MP:** 80/80
 - **STR:** 60
@@ -320,6 +323,7 @@
 
 ### **Hydre au poison** (Lvl 15 Élite) 👑
 
+**Niveau 15:**
 - **HP:** 1500/1500
 - **MP:** 200/200
 - **STR:** 50
@@ -338,6 +342,7 @@
 
 ### **Poisson tentaculaire** (Lvl 10 Élite) 👑 *Boss Rare*
 
+**Niveau 10:**
 - **HP:** 1000/1000
 - **MP:** 150/150
 - **STR:** 40
@@ -418,6 +423,7 @@
 
 ### **Sanglier enragé** (Lvl 20 Élite)
 
+**Niveau 20:**
 - **HP:** 200/200
 - **MP:** 30/30
 - **STR:** 70
@@ -434,7 +440,7 @@
 
 ### **Ours en colère** (Lvl 20 / Lvl 20 Élite)
 
-**Version Standard (Nature):**
+**Version Standard (Nature) — Niveau 20:**
 - **HP:** 180/180
 - **MP:** 25/25
 - **STR:** 75
@@ -446,7 +452,7 @@
 - **Drop:** Griffe d'ours, Fourrure d'ours
 - **Zone:** Nature
 
-**Version Élite (Donjon):**
+**Version Élite (Donjon) — Niveau 20:**
 - **HP:** 250/250
 - **MP:** 35/35
 - **STR:** 90
@@ -462,6 +468,7 @@
 
 ### **Roi de la nature: Cerf de vie** (Boss) 👑
 
+**Niveau 20 (Boss):**
 - **HP:** 1500/1500
 - **MP:** 300/300
 - **STR:** 100
@@ -484,6 +491,7 @@
 
 ### **Grand Clown à massue** (Lvl 20 Élite) 👑 *Boss Secret Event*
 
+**Niveau 20:**
 - **HP:** 1000/1000
 - **MP:** 100/100
 - **STR:** 100
@@ -500,7 +508,7 @@
 
 ### **Phénix de glace** (Lvl 25 Élite) 👑 *Boss Event*
 
-**Phase 1:**
+**Niveau 25 — Phase 1:**
 - **HP:** 2500/2500
 - **MP:** 400/400
 - **STR:** 100
@@ -516,7 +524,7 @@
   - **Laserglace:** 200
 - **Drop (Phase 1):** Plume de glace, Cristal gelé
 
-**Phase 2: Phénix des ténèbres noires** (à 30% HP)
+**Niveau 25 — Phase 2: Phénix des ténèbres noires** (à 30% HP)
 - **HP:** 750/2500 (restant)
 - **MP:** 200/400
 - **STR:** 200
@@ -531,6 +539,7 @@
 
 ### **Fils du Kraken** (Lvl 25 Élite Event)
 
+**Niveau 25:**
 - **HP:** 2000/2000
 - **MP:** 250/250
 - **STR:** 150
@@ -633,6 +642,7 @@
 
 ### **Roi squelette** (Lvl 25 Élite) 👑 *Boss*
 
+**Niveau 25:**
 - **HP:** 2500/2500
 - **MP:** 350/350
 - **STR:** 200
@@ -650,7 +660,7 @@
 
 ### **Chevalier démoniaque** (Lvl 25 Élite) 👑 *Monstre Rare*
 
-**Phase 1:**
+**Niveau 25 — Phase 1:**
 - **HP:** 1500/1500
 - **MP:** 200/200
 - **STR:** 200
@@ -662,7 +672,7 @@
 - **Lien maudit:** Immobilise + Empêche fuite/skills offensifs ou déplacement
 - **Drop (Phase 1):** Armure démoniaque, Chaînes maudites
 
-**Phase 2** (à 50% HP):
+**Niveau 25 — Phase 2** (à 50% HP):
 - **HP:** 750/1500
 - **Goinfrerie:** Enferme victime dans ventre + Poison gastrique (dégâts durée)
 - **Drop (Phase 2):** Épée démoniaque, Cœur corrompu
@@ -672,6 +682,7 @@
 
 ### **Gardien du 3ème palier: Terongor** (Boss Élite) 👑
 
+**Niveau 25 (Gardien):**
 - **HP:** 3000/3000
 - **MP:** 400/400
 - **STR:** 300
@@ -690,7 +701,7 @@
 
 ### **Roi mécanique** (Lvl 30 Élite) 👑 *Monstre Rare*
 
-**Phase 1:**
+**Niveau 30 — Phase 1:**
 - **HP:** 3500/3500
 - **MP:** 500/500
 - **STR:** 100
@@ -701,7 +712,7 @@
 - **Attaque de base:** 100/projectile
 - **Drop (Phase 1):** Pièces mécaniques, Circuit magique
 
-**Phase 2** (à 50% HP):
+**Niveau 30 — Phase 2** (à 50% HP):
 - **HP:** 1750/3500
 - **Obtention skill:** "Dieu mécanique" (pour vainqueur)
 - **Drop (Phase 2):** Cœur mécanique, Blueprint légendaire, Core du roi
@@ -767,6 +778,7 @@
 
 ### **Gardien du 4ème palier: Garde-Lave Oursobot** (Lvl 40 Élite) 👑
 
+**Niveau 40 (Gardien):**
 - **HP:** 4000/4000
 - **MP:** 600/600
 - **STR:** 400
@@ -961,6 +973,7 @@
 
 ### **Améthyste, le sabre maudit dévoreur** (Lvl 45) 👑 *Boss Quête*
 
+**Niveau 45:**
 - **HP:** 4500/4500
 - **MP:** 600/600
 - **STR:** 500
@@ -1005,6 +1018,7 @@
 
 ### **Horde de tréant** (Lvl 50 Event)
 
+**Niveau 50:**
 - **HP:** 800/800 (par tréant)
 - **MP:** 150/150
 - **STR:** 700
@@ -1020,6 +1034,7 @@
 
 ### **Reine des abeilles enragée** (Lvl 50 Élite) 👑 *Boss Event*
 
+**Niveau 50:**
 - **HP:** 5000/5000
 - **MP:** 800/800
 - **STR:** 1000
@@ -1035,6 +1050,7 @@
 
 ### **Spider barrage** (Lvl 50 Event)
 
+**Niveau 50:**
 - **HP:** 1200/1200
 - **MP:** 300/300
 - **STR:** 700
@@ -1050,6 +1066,7 @@
 
 ### **Ryuja le maître de la tour** (Lvl 50 Élite) 👑 *Boss*
 
+**Niveau 50:**
 - **HP:** 5000/5000
 - **MP:** 700/700
 - **STR:** 1000
@@ -1068,6 +1085,7 @@
 
 ### **Gardienne du 5ème palier: Kyubi masqué au chakra bleu** (Lvl 50 Élite) 👑
 
+**Niveau 50 (Gardienne):**
 - **HP:** 5000/5000
 - **MP:** 900/900
 - **STR:** 1000
@@ -1084,6 +1102,7 @@
 
 ### **Apôtre du dieu céleste** (Lvl 50 Élite) 👑 *Boss*
 
+**Niveau 50:**
 - **HP:** 5000/5000
 - **MP:** 800/800
 - **STR:** 180
@@ -1131,6 +1150,7 @@
 
 ### **Gardienne du 6ème palier: Nuage-médusé** (Lvl 55 Élite) 👑
 
+**Niveau 55 (Gardienne):**
 - **HP:** 5500/5500
 - **MP:** 1000/1000
 - **STR:** 1000
@@ -1263,6 +1283,7 @@
 
 ### **Dragon de la terre** (Lvl 60 Élite) 👑
 
+**Niveau 60:**
 - **HP:** 6000/6000
 - **MP:** 1000/1000
 - **STR:** 220
@@ -1282,6 +1303,7 @@
 
 ### **Bibliothèque** (Lvl 60 Élite) 👑 *Boss Event*
 
+**Niveau 60:**
 - **HP:** ??? (Variable)
 - **MP:** 2000/2000
 - **STR:** 150
@@ -1298,7 +1320,7 @@
 
 ### **Élémentaire de lave/glace** (Lvl 60 Élite) 👑
 
-**Phase 1:**
+**Niveau 60 — Phase 1:**
 - **HP:** 6000/6000
 - **MP:** 1200/1200
 - **STR:** 200
@@ -1309,7 +1331,7 @@
 - **Attaque de base:** 200
 - **Drop (Phase 1):** Cristal de lave, Glace éternelle
 
-**Phase 2:**
+**Niveau 60 — Phase 2:**
 - **HP:** 1000/1000
 - **MP:** 600/1200
 - **STR:** 250
@@ -1322,6 +1344,7 @@
 
 ### **Tortue géante de la mer antique** (Lvl 60 Élite) 👑
 
+**Niveau 60:**
 - **HP:** 6000/6000
 - **MP:** 800/800
 - **STR:** 180
@@ -1338,6 +1361,7 @@
 
 ### **Guerrier squelette géant** (Lvl 60 Élite) 👑
 
+**Niveau 60:**
 - **HP:** 6000/6000
 - **MP:** 500/500
 - **STR:** 250
@@ -1354,6 +1378,7 @@
 
 ### **Liche de l'ancien monde** (Lvl 60) 👑 *Boss Event*
 
+**Niveau 60:**
 - **HP:** 6000/6000
 - **MP:** 2500/2500
 - **STR:** 150
@@ -1370,6 +1395,7 @@
 
 ### **Dino-pic de glace** (Lvl 60 Élite) 👑
 
+**Niveau 60:**
 - **HP:** 6000/6000
 - **MP:** 600/600
 - **STR:** 230
@@ -1388,6 +1414,7 @@
 
 ### **Caméléon de la forêt argenté géant** (Lvl 60 Élite) 👑
 
+**Niveau 60:**
 - **HP:** 6000/6000
 - **MP:** 900/900
 - **STR:** 1000
@@ -1406,6 +1433,7 @@
 
 ### **Tour akashique des rois** (Lvl 60 Élite) 👑
 
+**Niveau 60:**
 - **HP:** ??? (Variable)
 - **MP:** 3000/3000
 - **STR:** 180
@@ -1424,7 +1452,7 @@
 
 ### **Élu déchu par les ténèbres** (Lvl 60 Élite) 👑
 
-**Phase 1:**
+**Niveau 60 — Phase 1:**
 - **HP:** 6000/6000
 - **MP:** 1500/1500
 - **STR:** 4000
@@ -1437,7 +1465,7 @@
 - **Note:** Invulnérable sauf zone rose
 - **Drop (Phase 1):** Fragment de lumière, Armure déchue
 
-**Phase 2** (à 50% HP):
+**Niveau 60 — Phase 2** (à 50% HP):
 - **HP:** 3000/6000
 - **MP:** 750/1500
 - **STR:** 4000
@@ -1506,3 +1534,5 @@
 - ⚙️ Zone Mécanique
 - 🌙 Zone Crépuscule
 - ☁️ Zone Céleste
+
+---
