@@ -34,10 +34,10 @@ La stat d’attaque **utilisée pour calculer les dégâts** (et non la précisi
 Deux valeurs sont calculées :
 
 - `hit_a = roll_a + attacker.AGI / 10`
-- `hit_b = roll_b + defender.AGI / 10`
+- `hit_b = roll_b + defender.AGI / 10` (`+3 si possède esquive`)
 
 Condition de toucher :
-- L’attaque **touche** si `hit_a > hit_b`
+- L’attaque **touche** si `hit_a > hit_b` et que `roll_a>=10`.
 - Si `hit_a == hit_b`, l’attaque **ne touche pas** (strictement supérieur requis)
 
 ---  
